@@ -1,5 +1,5 @@
 ---
-Date: $date
+Type: Page
 Title: Blessing of Glory
 Tags: songs, holy-songs
 ---

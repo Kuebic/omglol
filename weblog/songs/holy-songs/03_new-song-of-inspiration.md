@@ -1,5 +1,4 @@
 ---
-Date: $date
 Type: Page
 Title: SONG TITLE
 Tags: songs, holy-songs
