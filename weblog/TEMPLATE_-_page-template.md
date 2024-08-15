@@ -120,7 +120,7 @@ code {
 	padding: .2em .3em;
 	border: 1px solid var(--accent);
 	white-space: pre-wrap;
-	word-wrap: break-word; 
+	word-wrap: break-word;
 }
 
 pre, code {
@@ -134,7 +134,7 @@ pre code {
 	display: inline-block;
 	padding: 1em;
 	white-space: pre-wrap;
-	word-wrap: break-word;   
+	word-wrap: break-word;
 }
 
 img {
@@ -150,7 +150,7 @@ td, th {
 	text-align: left;
 	border: 1px solid var(--accent);
 }
-	
+
 .weblog-title a {
 	text-decoration: none;
 	color: var(--foreground);
@@ -174,7 +174,7 @@ td, th {
 </main>
 
 <footer>
-	<p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p>
+	<!-- <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p> -->
 </footer>
 
 </body>

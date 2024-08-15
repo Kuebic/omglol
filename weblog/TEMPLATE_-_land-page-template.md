@@ -1,7 +1,10 @@
+Type: Template
+Title: Landing Page Template
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>{weblog-title}{separator}{post-title}</title>
+<title>{weblog-title}</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {feeds}
@@ -89,7 +92,6 @@ a:active { color: var(--link); }
 .post-info, .post-tags {
 	font-size: 85%;
 	color: var(--accent);
-	text-align: right;
 }
 
 .post-info i:nth-child(2) {
@@ -153,6 +155,17 @@ td, th {
 	color: var(--foreground);
 }
 
+.previous-page + .next-page::before {
+	content: "\2022";
+	color: #ccc;
+	margin: 0 0.75em;
+}
+
+.divider::after {
+	content: "\2022 \2022 \2022";
+	color: #ccc;
+}
+
 </style>
 </head>
 <body>
@@ -164,21 +177,12 @@ td, th {
 
 <main>
 
-<article>
-	{body}
-	<aside class="post-info">
-		<i class="fa-solid fa-clock"></i> {date}
-	</aside>
-	<aside class="post-tags">
-		{tags}
-	</aside>
-</article>
+{body}
 
-<hr>
-
-<h2>Recent posts</h2>
-
-{recent-posts}
+<nav>
+{previous-page}
+{next-page}
+</nav>
 
 </main>
 
