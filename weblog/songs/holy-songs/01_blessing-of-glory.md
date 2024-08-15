@@ -1,4 +1,5 @@
 ---
+Date: 2021-11-30
 Type: Page
 Title: Blessing of Glory
 Tags: songs, holy-songs
