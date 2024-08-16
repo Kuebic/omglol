@@ -1,5 +1,5 @@
 Type: Template
-Title: Page Template
+Title: Song Template
 
 <!DOCTYPE html>
 <html lang="en">
@@ -167,9 +167,6 @@ td, th {
 
 <article>
 	{body}
-	<aside class="post-info">
-		<i class="fa-solid fa-clock"></i> {date}
-	</aside>
 	<aside class="post-tags">
 		{tags}
 	</aside>
