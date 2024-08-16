@@ -1,6 +1,7 @@
 ---
 Type: Page
-Title: SONG TITLE
+Title: Song of the Spring Breeze
+Location: /songs/holy-songs/07_song-of-the-spring-breeze
 Tags: songs, holy-songs
 ---
 

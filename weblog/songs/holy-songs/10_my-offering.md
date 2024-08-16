@@ -1,6 +1,7 @@
 ---
 Type: Page
-Title: SONG TITLE
+Title: My Offering
+Location: /songs/holy-songs/10_my-offering
 Tags: songs, holy-songs
 ---
 

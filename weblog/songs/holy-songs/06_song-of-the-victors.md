@@ -1,6 +1,7 @@
 ---
 Type: Page
-Title: SONG TITLE
+Title: Song of the Victors
+Location: /songs/holy-songs/06_song-of-the-victors
 Tags: songs, holy-songs
 ---
 

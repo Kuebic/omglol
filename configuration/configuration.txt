@@ -3,9 +3,9 @@
 ;; About your weblog
 ;; -----------------
 
-Weblog title: A Weblog
-Weblog description: This is a weblog.
-Author: Your Name
+Weblog title: Kenei's Weblog
+Weblog description: Archive of my thoughts and ideas.
+Author: Kenei
 // Canonical domain: elsewhere.tld
 // Landing page: /
 Landing page template: Landing Page Template
@@ -14,10 +14,11 @@ Landing page template: Landing Page Template
 ;; General config stuff
 ;; --------------------
 
-Separator:  · 
+Separator:  ·
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
+Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
 Files path: /files/
-Landing page post count: 1
+Landing page post count: 5
 // Landing page post length: 45 words
 Post template: Post Template
 
@@ -33,10 +34,10 @@ Next page template: <span class="next-page"><a href="$next_page">Next Page →</
 ;; Time stuff
 ;; ----------
 
-; You can use a timezone value from the "TZ database name" column on this 
+; You can use a timezone value from the "TZ database name" column on this
 ; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-Timezone: UTC
+Timezone: CST
 Date format: F j, Y g:i A
 
 
