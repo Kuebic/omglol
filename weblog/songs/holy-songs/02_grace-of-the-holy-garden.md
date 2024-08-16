@@ -1,5 +1,6 @@
 ---
-Type: Page
+Date: 2021-11-30
+Type: Post
 Title: SONG TITLE
 Tags: songs, holy-songs
 ---
@@ -11,10 +12,6 @@ Tags: songs, holy-songs
 {subtitle: }
 {columns: 2}
 {key: C}
-{commentary: }
-{commentary-author: }
-{commentary-source: }
-{commentary-source-url: }
 ```
 
 ## Chordpro
