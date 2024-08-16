@@ -13,24 +13,19 @@
 @import url('https://static.omg.lol/type/font-md-io.css');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
 
-/* Nord Theme Colors */
 :root {
-	--foreground: #D8DEE9; /* nord4 */
-	--background: #2E3440; /* nord0 */
-	--link: #88C0D0;      /* nord8 */
-	--accent: #81A1C1;    /* nord9 */
-	--tag-bg: #5E81AC;    /* nord10 */
-	--tag-color: #ECEFF4; /* nord6 */
+	--foreground: #212529;
+	--background: #f8f9fa;
+	--link: #0b7285;
+	--accent: #868e96;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--foreground: #ECEFF4; /* nord6 */
-		--background: #2E3440; /* nord0 */
-		--link: #88C0D0;      /* nord8 */
-		--accent: #81A1C1;    /* nord9 */
-		--tag-bg: #5E81AC;    /* nord10 */
-		--tag-color: #ECEFF4; /* nord6 */
+		--foreground: #eee;
+		--background: #222;
+		--link: #99e9f2;
+		--accent: #ced4da;
 	}
 }
 
@@ -59,13 +54,11 @@ header nav li a {
 	display: block;
 	text-decoration: none;
 	margin-right: 1em;
-	color: var(--link);
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'VC Honey Deck', serif;
 	margin: 1rem 0;
-	color: var(--foreground);
 }
 
 p, li {
@@ -86,7 +79,6 @@ footer p {
 	margin-top: 5em;
 	font-size: 90%;
 	text-align: center;
-	color: var(--accent);
 }
 
 a:link { color: var(--link); }
@@ -105,8 +97,8 @@ a:active { color: var(--link); }
 }
 
 .tag {
-	background: var(--tag-bg);
-	color: var(--tag-color) !important;
+	background: var(--accent);
+	color: var(--background) !important;
 	padding: .3em .4em;
 	margin: .8em 0 0 .4em;
 	border-radius: .5em;
@@ -117,7 +109,7 @@ a:active { color: var(--link); }
 hr {
 	border: 0;
 	height: 1px;
-	background: var(--accent);
+	background: #333;
 	margin: 2em 0;
 }
 
@@ -126,8 +118,6 @@ code {
 	border: 1px solid var(--accent);
 	white-space: pre-wrap;
 	word-wrap: break-word;
-	color: var(--foreground);
-	background-color: #3B4252; /* nord1 */
 }
 
 pre, code {
@@ -136,8 +126,8 @@ pre, code {
 }
 
 pre code {
-	background: #3B4252; /* nord1 */
-	color: #D8DEE9; /* nord4 */
+	background:  #000;
+	color:  #eee;
 	display: inline-block;
 	padding: 1em;
 	white-space: pre-wrap;
@@ -156,7 +146,6 @@ td, th {
 	padding: .75em;
 	text-align: left;
 	border: 1px solid var(--accent);
-	color: var(--foreground);
 }
 
 .weblog-title a {
@@ -194,6 +183,7 @@ td, th {
 </main>
 
 <footer>
+	<!-- <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p> -->
 </footer>
 
 </body>
