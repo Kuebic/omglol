@@ -171,6 +171,38 @@ pre code {
 	border-radius: 5px;
 }
 
+/* Collapsible Code Block Styles */
+.collapsible {
+	max-height: 6.5em; /* Approximately 4 lines of code */
+	overflow: hidden;
+	position: relative;
+}
+
+.collapsible-button {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: var(--button-bg);
+	color: var(--button-text);
+	padding: 0.4em 0;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.85em;
+	cursor: pointer;
+	border-top: 1px solid var(--accent);
+	border-radius: 0 0 4px 4px;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.collapsible.expanded {
+	max-height: none;
+}
+
+.collapsible.expanded .collapsible-button {
+	display: none;
+}
+
 img {
 	max-width: 100%;
 	border-radius: 5px;
@@ -254,6 +286,28 @@ button:hover {
 	<p>&copy; {current-year} <a href="{base-path}">{weblog-title}</a>. All rights reserved.</p>
 	<button onclick="window.location.href='#home'">Back to Top</button>
 </footer>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		const codeBlocks = document.querySelectorAll('pre code');
+		codeBlocks.forEach(function (codeBlock) {
+			const lines = codeBlock.innerHTML.split('\n').length;
+			if (lines > 4) {
+				const pre = codeBlock.parentElement;
+				pre.classList.add('collapsible');
+
+				const button = document.createElement('div');
+				button.className = 'collapsible-button';
+				button.innerHTML = 'Click to expand';
+				button.addEventListener('click', function () {
+					pre.classList.toggle('expanded');
+				});
+
+				pre.appendChild(button);
+			}
+		});
+	});
+</script>
 
 </body>
 </html>
