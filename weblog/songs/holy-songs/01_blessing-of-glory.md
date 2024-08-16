@@ -7,13 +7,6 @@ Tags: songs, holy-songs
 
 # Blessing of Glory PAGE
 
-```yaml
-Title: Blessing of Glory
-- test
-- testing
-- testing again
-```
-
 ```chordpro
 {title: Blessing of Glory}
 {subtitle: }
