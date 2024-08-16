@@ -48,6 +48,8 @@ I can never stop feeling how unworthy am I!
 ```
 
 ## Chordpro
+*Note: the spaces between lines aren't really there, but markdown makes them all one line for some reason otherwise.*
+
 \`\`\`chordpro
 
 {t: Blessing of Glory}
