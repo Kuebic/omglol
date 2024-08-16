@@ -165,13 +165,15 @@ td, th {
 	{navigation}
 </header>
 
-<main>
-
-{body}
-
-<hr>
-
-</main>
+<article>
+	{body}
+	<aside class="post-info">
+		<i class="fa-solid fa-clock"></i> {date}
+	</aside>
+	<aside class="post-tags">
+		{tags}
+	</aside>
+</article>
 
 <footer>
 	<!-- <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p> -->

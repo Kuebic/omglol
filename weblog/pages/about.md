@@ -1,6 +1,7 @@
 ---
 Date: 2024-08-16
 Type: Page
+Title: About
 Location: /about
 ---
 

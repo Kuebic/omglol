@@ -16,7 +16,7 @@ Landing page template: Landing Page Template
 
 Separator:  ·
 // Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
-Navigation: about, another-page, <a href="https://example.com">Example</a>, [Example](https://example.com)
+Navigation: about, songs
 Files path: /files/
 Landing page post count: 5
 // Landing page post length: 45 words
@@ -38,7 +38,7 @@ Next page template: <span class="next-page"><a href="$next_page">Next Page →</
 ; web page: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 Timezone: CST
-Date format: F j, Y g:i A
+Date format: F j, Y
 
 
 ;; Feeds
