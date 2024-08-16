@@ -55,7 +55,7 @@ I can never stop feeling how unworthy am I!
 {key: C}
 
 {sov}
-Now the [C]light of [Am]glory a[C]rises like the sun that [F]shines on [C]high;    [G7]
+Now the [C] light of [Am] glory a [C] rises like the sun that [F]shines on [C]high;    [G7]
 Now a[Am]waken into [Em]freedom, O re[C]vive, you spirits, [F]O re[C]vive!
 Wake the [Am]mountains and the [Dm/F]val[F]leys; bring [Dm7]alive the [G7]springs of the [C]earth.  [G]
 {eov}
