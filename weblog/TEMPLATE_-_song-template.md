@@ -1,3 +1,6 @@
+Type: Template
+Title: Song Template
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
