@@ -48,11 +48,11 @@ I can never stop feeling how unworthy am I!
 ```
 
 ## Chordpro
-\`\`\`chordpro
-{t: Blessing of Glory}
-{st: Holy Song #1}
-{c: GPL3 2019 kuebic}
-{key: C}
+\`\`\`chordproo
+\n{t: Blessing of Glory}
+\n{st: Holy Song #1}
+\n{c: GPL3 2019 kuebic}
+\n{key: C}
 
 {sov}
 Now the [C]light of [Am]glory a[C]rises like the sun that [F]shines on [C]high;    [G7]
