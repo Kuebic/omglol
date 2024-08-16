@@ -48,7 +48,7 @@ I can never stop feeling how unworthy am I!
 ```
 
 ## Chordpro
-\`\`\`chordpro
+\`\`\`chordpro\n
 {t: Blessing of Glory}
 {st: Holy Song #1}
 {c: GPL3 2019 kuebic}
@@ -64,7 +64,7 @@ Light the [C]world for[Am]ever with the [Em]Light of [Am]your re[Em]birth.  [C7]
 Light the [F]world fore[C]ver [Am]with the [C]Light of [G7]your re[C]birth.
 {eoc}
 
-{sot}
+{sot}\n
 We are [C]called to [Am]bring back the [C]glory to the life of [F]God a[C]bove;    [G7]
 Now the [Am]Lord in His [Em]greatness fills the [C]universe with [F]tender [C]love,
 Ever [Am]seeking souls a[Dm/F]wa[F]kened, ever [Dm7]calling [G7]them to be [C]free. [G7]
@@ -72,7 +72,7 @@ How [C]shall I at[Am]tend Him who is [Em]cal[Am]ling to [Em]me?  [C7]
 How shall [F]I at[C]tend [Am]Him who is [C]cal[G7]ling to [C]me?
 {eot}
 
-{sog}
+{sog}\n
 From the dark of death I awaken and rejoice to live in grace;
 When the one who came to save me holds me tenderly in His embrace;
 How can I return the blessing? Though in all my life I will try.
@@ -80,7 +80,7 @@ What a blessing of glory, to rejoice eternally!
 What a blessing of glory, to rejoice eternally!
 {eog}
 
-{c:Final}
+{c:Final}\n
 Now He lifts me up to embrace me in the blessing that is mine
 What a blessing to receive Him in a love so tender and devine
 How can I return the blessing? Though in all my life I will try
