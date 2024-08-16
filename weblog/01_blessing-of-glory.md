@@ -5,7 +5,7 @@ Title: Blessing of Glory
 Tags: songs, holy-songs
 ---
 
-# Blessing of Glory
+# Blessing of Glory POST
 
 ```chordpro
 {t: Blessing of Glory}

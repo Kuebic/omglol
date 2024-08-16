@@ -1,12 +1,11 @@
 ---
-Date: 2021-11-30
 Type: Song
 Title: Blessing of Glory
 Location: /songs/holy-songs/01_blessing-of-glory
 Tags: songs, holy-songs
 ---
 
-# Blessing of Glory
+# Blessing of Glory PAGE
 
 ```chordpro
 {title: Blessing of Glory}

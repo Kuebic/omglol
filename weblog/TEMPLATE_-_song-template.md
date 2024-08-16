@@ -1,6 +1,3 @@
-Type: Template
-Title: Song Template
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -165,12 +162,21 @@ td, th {
 	{navigation}
 </header>
 
+<main>
+
 <article>
 	{body}
+	<aside class="post-info">
+		<i class="fa-solid fa-clock"></i> {date}
+	</aside>
 	<aside class="post-tags">
 		{tags}
 	</aside>
 </article>
+
+<hr>
+
+</main>
 
 <footer>
 	<!-- <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p> -->
