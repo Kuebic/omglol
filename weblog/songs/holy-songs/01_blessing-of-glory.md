@@ -54,6 +54,7 @@ I can never stop feeling how unworthy am I!
 ```
 
 ## Chordpro
+```
 Now the [C]light of [Am]glory a[C]rises like the sun that [F]shines on [C]high;    [G7]
 Now a[Am]waken into [Em]freedom, O re[C]vive, you spirits, [F]O re[C]vive!
 Wake the [Am]mountains and the [Dm/F]val[F]leys; bring [Dm7]alive the [G7]springs of the [C]earth.  [G]
@@ -77,3 +78,4 @@ What a blessing to receive Him in a love so tender and devine
 How can I return the blessing? Though in all my life I will try
 I can never stop feeling how unworthy am I.
 I can never stop feeling how unworthy am I!
+```
