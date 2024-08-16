@@ -14,7 +14,7 @@ Tags: songs, holy-songs
 {key: C}
 
 {sov}
-Now the [C] light of [Am] glory a [C] rises like the sun that [F] shines on [C] high;    [G7]
+Now the [C]light of [Am]glory a[C]rises like the sun that [F]shines on [C]high;    [G7]
 Now a[Am]waken into [Em]freedom, O re[C]vive, you spirits, [F]O re[C]vive!
 Wake the [Am]mountains and the [Dm/F]val[F]leys; bring [Dm7]alive the [G7]springs of the [C]earth.  [G]
 {eov}
@@ -48,18 +48,17 @@ I can never stop feeling how unworthy am I!
 ```
 
 ## Chordpro
-```
+\`\`\`chordpro
 {t: Blessing of Glory}
 {st: Holy Song #1}
 {c: GPL3 2019 kuebic}
 {key: C}
 
 {sov}
-Now the [C] light of [Am] glory a [C] rises like the sun that [F]shines on [C]high;    [G7]
+Now the [C]light of [Am]glory a[C]rises like the sun that [F]shines on [C]high;    [G7]
 Now a[Am]waken into [Em]freedom, O re[C]vive, you spirits, [F]O re[C]vive!
 Wake the [Am]mountains and the [Dm/F]val[F]leys; bring [Dm7]alive the [G7]springs of the [C]earth.  [G]
 {eov}
-
 {soc}
 Light the [C]world for[Am]ever with the [Em]Light of [Am]your re[Em]birth.  [C7]
 Light the [F]world fore[C]ver [Am]with the [C]Light of [G7]your re[C]birth.
@@ -87,5 +86,4 @@ What a blessing to receive Him in a love so tender and devine
 How can I return the blessing? Though in all my life I will try
 I can never stop feeling how unworthy am I.
 I can never stop feeling how unworthy am I!
-
-```
+\`\`\`
