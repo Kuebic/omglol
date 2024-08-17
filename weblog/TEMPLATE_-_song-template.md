@@ -167,15 +167,11 @@ td, th {
 
 <main>
 
-<article>
-	{body}
-	<aside class="post-info">
-		<i class="fa-solid fa-clock"></i> {date}
-	</aside>
-	<aside class="post-tags">
-		{tags}
-	</aside>
-</article>
+{body}
+
+<aside class="post-tags">
+	{tags}
+</aside>
 
 <hr>
 
