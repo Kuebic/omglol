@@ -273,7 +273,7 @@ body.chordpro-verse:first-of-type {
     margin-top: 1em;
 }
 .chordpro-verse {
-  height: 2.5em;
+  height: 3em;
 }
 .chordpro-chorus {
   padding-left: 10px;
@@ -294,5 +294,5 @@ body.chordpro-verse:first-of-type {
 .chordpro-text {
   position: relative;
   display: block;
-  padding-bottom: 0.6em;
+
 }
