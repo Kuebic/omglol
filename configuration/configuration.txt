@@ -3,8 +3,8 @@
 ;; About your weblog
 ;; -----------------
 
-Weblog title: Kenei's Weblog
-Weblog description: Archive of my thoughts and ideas.
+Weblog title: HSA Songbook
+Weblog description: Songs with good chords.
 Author: Kenei
 // Canonical domain: elsewhere.tld
 // Landing page: /
