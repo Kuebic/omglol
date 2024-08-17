@@ -243,3 +243,55 @@ button:hover {
     background: var(--highlight);
     color: var(--foreground);
 }
+
+.chordpro-title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.chordpro-subtitle {
+    font-size: 1.1em;
+    font-weight: light;
+}
+.chordpro-comment {
+    font-style: italic;
+    font-size: 0.9em;
+}
+.chordpro-key {
+    display: inline-block;
+    font-size: 1.5em;
+    padding: 5px 10px 0;
+    border: 2px solid #000;
+    border-radius: 4px;
+    width: auto;
+    line-height: 1.5em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+body.chordpro-verse:first-of-type {
+    border-top: 1px solid #000;
+    padding-top: 1em;
+    margin-top: 1em;
+}
+.chordpro-verse {
+  height: 2.5em;
+}
+.chordpro-chorus {
+  padding-left: 10px;
+  border-left: 4px solid #777;
+}
+.chordpro-elem {
+  position: relative;
+  display: inline-block;
+}
+.chordpro-chord {
+  position: relative;
+  display: block;
+  padding-right: 5px;
+  font-weight: bold;
+  font-size: 0.9em;
+  margin-bottom: -.2em;
+}
+.chordpro-text {
+  position: relative;
+  display: block;
+}
