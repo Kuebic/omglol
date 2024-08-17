@@ -4,7 +4,7 @@ Title: Songs - Holy-Songs
 Location: /songs/holy-songs
 ---
 
-# Songs - Holy-Songs
+# [Songs](/songs) - Holy-Songs
 ### [Blessing of Glory](/songs/holy-songs/01_blessing-of-glory)
 ### [Grace of the Holy Garden](/songs/holy-songs/02_grace-of-the-holy-garden)
 ### [New Song of Inspiration](/songs/holy-songs/03_new-song-of-inspiration)

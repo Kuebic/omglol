@@ -50,7 +50,7 @@ Title: Songs - {folder_name.title()}
 Location: /songs/{folder_name}
 ---
 
-# Songs - {folder_name.title()}
+# [Songs](/songs) - {folder_name.title()}
 """)
 
                 # Iterate over files in the folder and add links to the markdown file
