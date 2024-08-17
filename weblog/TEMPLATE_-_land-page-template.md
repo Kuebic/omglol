@@ -35,8 +35,10 @@ Title: Landing Page Template
 </main>
 
 <footer>
-    <p>&copy; <span id="current-year"></span> <a href="{base-path}">{weblog-title}</a>. All rights reserved.</p>
+    <p>&copy; <span id="current-year"></span> <a href="{base-path}">{weblog-title}</a> All rights reserved.</p>
 </footer>
-
+<script>
+	document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
