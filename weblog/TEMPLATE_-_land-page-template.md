@@ -301,6 +301,7 @@ button:hover {
 </script>
 
 <script>
+	// JavaScript to collapse and expand code blockss
     document.addEventListener('DOMContentLoaded', function () {
         const codeBlocks = document.querySelectorAll('pre code');
         codeBlocks.forEach(function (codeBlock) {
