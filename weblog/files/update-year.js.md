@@ -1,5 +1,5 @@
 Type: file
-Content-Type: text/js
+Content-Type: js
 Title: update-year
 Location: /files/update-year.js
 
