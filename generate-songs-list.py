@@ -60,6 +60,6 @@ Location: /songs/{folder_name}
                         title, location = extract_metadata(sub_folder_path)
                         if title and location:
                             title_link = title.replace(' ', '-').lower()
-                            folder_md.write(f"### [{title}]({location})\n")
+                            folder_md.write(f"#### [{title}]({location})\n")
 
 print("Markdown files have been generated successfully.")
