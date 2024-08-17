@@ -9,26 +9,33 @@ Title: Song Template
 <meta name="viewport" content="width=device-width, initial-scale=1">
 {feeds}
 <style>
-@import url('https://static.omg.lol/type/font-honey.css');
-@import url('https://static.omg.lol/type/font-lato-regular.css');
-@import url('https://static.omg.lol/type/font-lato-bold.css');
-@import url('https://static.omg.lol/type/font-lato-italic.css');
-@import url('https://static.omg.lol/type/font-md-io.css');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&family=Merriweather:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 @import url('https://static.omg.lol/type/fontawesome-free/css/all.css');
 
+/* Nord Theme Colors with a Splash of Personality */
 :root {
-	--foreground: #212529;
-	--background: #f8f9fa;
-	--link: #0b7285;
-	--accent: #868e96;
+	--foreground: #D8DEE9; /* nord4 */
+	--background: #2E3440; /* nord0 */
+	--link: #88C0D0;      /* nord8 */
+	--accent: #81A1C1;    /* nord9 */
+	--highlight: #A3BE8C; /* nord14 */
+	--tag-bg: #5E81AC;    /* nord10 */
+	--tag-color: #ECEFF4; /* nord6 */
+	--button-bg: #81A1C1;
+	--button-text: #2E3440;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--foreground: #eee;
-		--background: #222;
-		--link: #99e9f2;
-		--accent: #ced4da;
+		--foreground: #ECEFF4; /* nord6 */
+		--background: #2E3440; /* nord0 */
+		--link: #88C0D0;      /* nord8 */
+		--accent: #81A1C1;    /* nord9 */
+		--highlight: #A3BE8C; /* nord14 */
+		--tag-bg: #5E81AC;    /* nord10 */
+		--tag-color: #ECEFF4; /* nord6 */
+		--button-bg: #81A1C1;
+		--button-text: #2E3440;
 	}
 }
 
@@ -37,10 +44,14 @@ Title: Song Template
 }
 
 body {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 120%;
 	color: var(--foreground);
 	background: var(--background);
+	line-height: 1.7;
+	margin: 0;
+	padding: 0;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 header nav ul {
@@ -51,21 +62,31 @@ header nav ul {
 
 header nav li {
 	display: inline-block;
+	margin-right: 1.5em;
 }
 
 header nav li a {
 	display: block;
 	text-decoration: none;
-	margin-right: 1em;
+	color: var(--link);
+	padding: 0.5em 0;
+	font-weight: 700;
+	transition: color 0.3s;
+}
+
+header nav li a:hover {
+	color: var(--highlight);
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'VC Honey Deck', serif;
+	font-family: 'Merriweather', serif;
 	margin: 1rem 0;
+	color: var(--foreground);
+	letter-spacing: 0.5px;
 }
 
 p, li {
-	line-height: 160%;
+	margin-bottom: 1.5em;
 }
 
 header, main, footer {
@@ -82,17 +103,19 @@ footer p {
 	margin-top: 5em;
 	font-size: 90%;
 	text-align: center;
+	color: var(--accent);
 }
 
 a:link { color: var(--link); }
 a:visited { color: var(--link); }
-a:hover { color: var(--link); }
+a:hover { color: var(--highlight); }
 a:active { color: var(--link); }
 
 .post-info, .post-tags {
 	font-size: 85%;
 	color: var(--accent);
 	text-align: right;
+	margin-top: 2em;
 }
 
 .post-info i:nth-child(2) {
@@ -100,59 +123,139 @@ a:active { color: var(--link); }
 }
 
 .tag {
-	background: var(--accent);
-	color: var(--background) !important;
-	padding: .3em .4em;
+	background: var(--tag-bg);
+	color: var(--tag-color) !important;
+	padding: .4em .6em;
 	margin: .8em 0 0 .4em;
 	border-radius: .5em;
 	text-decoration: none;
 	display: inline-block;
+	font-weight: 600;
+	font-size: 85%;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.tag:hover {
+	background: var(--highlight);
+	color: var(--button-text) !important;
 }
 
 hr {
 	border: 0;
-	height: 1px;
-	background: #333;
+	height: 2px;
+	background: var(--accent);
 	margin: 2em 0;
 }
 
 code {
-	padding: .2em .3em;
+	padding: .2em .4em;
 	border: 1px solid var(--accent);
+	border-radius: 4px;
 	white-space: pre-wrap;
 	word-wrap: break-word;
+	color: var(--foreground);
+	background-color: #3B4252; /* nord1 */
+	font-family: 'Source Code Pro', monospace;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 pre, code {
-	font-family: 'MD IO 0.4';
+	font-family: 'Source Code Pro', monospace;
 	font-size: 90%;
 }
 
 pre code {
-	background:  #000;
-	color:  #eee;
+	background: #3B4252; /* nord1 */
+	color: #D8DEE9; /* nord4 */
 	display: inline-block;
 	padding: 1em;
 	white-space: pre-wrap;
 	word-wrap: break-word;
+	border-radius: 5px;
 }
+
+/* Collapsible Code Block Styles */
+.collapsible {
+    max-height: 6.5em; /* Approximately 4 lines of code */
+    overflow: hidden;
+    position: relative; /* Ensure the button is positioned relative to this */
+    border-radius: 5px;
+    padding-bottom: 1.5em; /* Add space for the button */
+    display: inline-block; /* Ensure it wraps the content width */
+}
+
+.collapsible-button {
+    position: absolute; /* Position it absolutely within the pre element */
+    bottom: 0; /* Stick to the bottom of the pre */
+    left: 0;
+    right: 0; /* Stretch to the full width of the code block */
+    background: rgba(46, 52, 64, 0.8); /* Slightly transparent background */
+    color: var(--tag-color); /* Use tag color for text */
+    padding: 0.3em;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75em;
+    cursor: pointer;
+    border-top: 1px solid var(--accent);
+    z-index: 10; /* Ensure the button appears above the code content */
+    border-radius: 0 0 5px 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.collapsible-button:hover {
+    background: rgba(46, 52, 64, 0.9); /* Darken background slightly on hover */
+}
+
+.collapsible.expanded {
+    max-height: none;
+}
+
+.collapsible.expanded .collapsible-button {
+    background: rgba(46, 52, 64, 0.8); /* Keep the button visible but subtle */
+}
+
 
 img {
 	max-width: 100%;
+	border-radius: 5px;
+	margin: 1em 0;
 }
 
 table {
 	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 2em;
 }
 
 td, th {
 	padding: .75em;
 	text-align: left;
 	border: 1px solid var(--accent);
+	color: var(--foreground);
 }
 
 .weblog-title a {
 	text-decoration: none;
+	color: var(--foreground);
+	font-size: 1.8em;
+	font-weight: 700;
+}
+
+button {
+	background: var(--button-bg);
+	color: var(--button-text);
+	border: none;
+	padding: 0.75em 1.5em;
+	border-radius: 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+	cursor: pointer;
+	transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+	background: var(--highlight);
 	color: var(--foreground);
 }
 
@@ -178,8 +281,41 @@ td, th {
 </main>
 
 <footer>
-	<!-- <p>Made with <a href="https://weblog.lol">weblog.lol</a>.</p> -->
+    <p>&copy; <span id="current-year"></span> <a href="{base-path}">{weblog-title}</a>. All rights reserved.</p>
+    <button onclick="window.location.href='#home'">Back to Top</button>
 </footer>
+
+<script>
+    // JavaScript to dynamically update the year
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const codeBlocks = document.querySelectorAll('pre code');
+        codeBlocks.forEach(function (codeBlock) {
+            const lines = codeBlock.innerHTML.split('\n').length;
+            if (lines > 4) {
+                const pre = codeBlock.parentElement;
+                pre.classList.add('collapsible');
+
+                const button = document.createElement('div');
+                button.className = 'collapsible-button';
+                button.innerHTML = 'Click to expand';
+                button.addEventListener('click', function () {
+                    pre.classList.toggle('expanded');
+                    if (pre.classList.contains('expanded')) {
+                        button.innerHTML = 'Click to collapse';
+                    } else {
+                        button.innerHTML = 'Click to expand';
+                    }
+                });
+
+                pre.appendChild(button);
+            }
+        });
+    });
+</script>
 
 </body>
 </html>

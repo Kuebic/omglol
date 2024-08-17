@@ -40,7 +40,6 @@ Next page template: <span class="next-page"><a href="$next_page">Next Page →</
 Timezone: CST
 Date format: F j, Y
 
-
 ;; Feeds
 ;; -----
 
