@@ -5,5 +5,5 @@ Location: /songs
 ---
 
 # Songs
-## [Camp](/camp)
-## [Holy Songs](/holy-songs)
+## [Camp](/songs/camp)
+## [Holy-Songs](/songs/holy-songs)
