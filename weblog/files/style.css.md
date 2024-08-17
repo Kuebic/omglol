@@ -9,7 +9,7 @@ Location: /files/style.css
 /* Nord Theme Colors with a Splash of Personality */
 :root {
     --foreground: #D8DEE9; /* nord4 */
-    --background: #FFFFFF; /* nord0 2E3440*/
+    --background: #2E3440; /* nord0 */
     --link: #88C0D0;      /* nord8 */
     --accent: #81A1C1;    /* nord9 */
     --highlight: #A3BE8C; /* nord14 */
@@ -22,7 +22,7 @@ Location: /files/style.css
 @media (prefers-color-scheme: dark) {
     :root {
         --foreground: #ECEFF4; /* nord6 */
-        --background: #FFFFFF; /* nord0 2E3440*/
+        --background: #2E3440; /* nord0 */
         --link: #88C0D0;      /* nord8 */
         --accent: #81A1C1;    /* nord9 */
         --highlight: #A3BE8C; /* nord14 */

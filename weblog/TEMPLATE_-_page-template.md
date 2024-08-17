@@ -285,37 +285,8 @@ button:hover {
     <button onclick="window.location.href='#home'">Back to Top</button>
 </footer>
 
-<script>
-    // JavaScript to dynamically update the year
-    document.getElementById('current-year').textContent = new Date().getFullYear();
-</script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const codeBlocks = document.querySelectorAll('pre code');
-        codeBlocks.forEach(function (codeBlock) {
-            const lines = codeBlock.innerHTML.split('\n').length;
-            if (lines > 4) {
-                const pre = codeBlock.parentElement;
-                pre.classList.add('collapsible');
-
-                const button = document.createElement('div');
-                button.className = 'collapsible-button';
-                button.innerHTML = 'Click to expand';
-                button.addEventListener('click', function () {
-                    pre.classList.toggle('expanded');
-                    if (pre.classList.contains('expanded')) {
-                        button.innerHTML = 'Click to collapse';
-                    } else {
-                        button.innerHTML = 'Click to expand';
-                    }
-                });
-
-                pre.appendChild(button);
-            }
-        });
-    });
-</script>
+<script src="https://kenei.weblog.lol/files/update-year.js" defer></script>
+<script src="https://kenei.weblog.lol/files/collapse-code.js" defer></script>
 
 </body>
 </html>
