@@ -175,7 +175,7 @@ pre code {
 .collapsible {
     max-height: 6.5em; /* Approximately 4 lines of code */
     overflow: hidden;
-    position: relative;
+    position: relative; /* Ensure the button is positioned relative to this */
     border-radius: 5px;
     padding-bottom: 1.5em; /* Add space for the button */
 }
@@ -193,9 +193,10 @@ pre code {
     font-size: 0.75em;
     cursor: pointer;
     border-top: 1px solid var(--accent);
-    z-index: 1; /* Ensure the button appears above the code content */
+    z-index: 10; /* Ensure the button appears above the code content */
     border-radius: 0 0 5px 5px;
     transition: background-color 0.3s, color 0.3s;
+    visibility: visible; /* Force visibility */
 }
 
 .collapsible-button:hover {
@@ -209,8 +210,6 @@ pre code {
 .collapsible.expanded .collapsible-button {
     background: rgba(46, 52, 64, 0.8); /* Keep the button visible but subtle */
 }
-
-
 
 img {
 	max-width: 100%;
