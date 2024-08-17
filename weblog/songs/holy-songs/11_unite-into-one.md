@@ -1,5 +1,6 @@
 ---
 Type: Page
+Template: Song
 Title: Unite into One
 Location: /songs/holy-songs/11_unite-into-one
 Tags: songs, holy-songs

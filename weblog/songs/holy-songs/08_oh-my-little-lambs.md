@@ -1,5 +1,6 @@
 ---
 Type: Page
+Template: Song
 Title: Oh My Little Lambs
 Location: /songs/holy-songs/08_oh-my-little-lambs
 Tags: songs, holy-songs

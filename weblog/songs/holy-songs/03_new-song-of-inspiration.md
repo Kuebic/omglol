@@ -1,5 +1,6 @@
 ---
 Type: Page
+Template: Song
 Title: New Song of Inspiration
 Location: /songs/holy-songs/03_new-song-of-inspiration
 Tags: songs, holy-songs

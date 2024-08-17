@@ -1,5 +1,6 @@
 ---
 Type: Page
+Template: Song
 Title: Garden of Restoration
 Location: /songs/holy-songs/04_garden-of-restoration
 Tags: songs, holy-songs

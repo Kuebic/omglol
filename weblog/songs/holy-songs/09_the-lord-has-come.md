@@ -1,5 +1,6 @@
 ---
 Type: Page
+Template: Song
 Title: The Lord has Come
 Location: /songs/holy-songs/09_the-lord-has-come
 Tags: songs, holy-songs

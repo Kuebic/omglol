@@ -1,5 +1,6 @@
 ---
 Type: Page
+Template: Song
 Title: My Offering
 Location: /songs/holy-songs/10_my-offering
 Tags: songs, holy-songs
