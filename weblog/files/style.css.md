@@ -286,7 +286,7 @@ body.chordpro-verse:first-of-type {
 .chordpro-chord {
   position: relative;
   display: block;
-  padding-top: 0.5em;
+  padding-top: 1em;
   padding-right: 5px;
   font-weight: bold;
   font-size: 0.9em;
