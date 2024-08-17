@@ -259,7 +259,7 @@ button:hover {
 	color: var(--foreground);
 }
 
-.chordpro-title {
+<!-- .chordpro-title {
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -309,7 +309,7 @@ body.chordpro-verse:first-of-type {
 .chordpro-text {
   position: relative;
   display: block;
-}
+} -->
 
 </style>
 </head>
