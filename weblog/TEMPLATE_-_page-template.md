@@ -285,8 +285,8 @@ button:hover {
     <button onclick="window.location.href='#home'">Back to Top</button>
 </footer>
 
-<script src="https://kenei.weblog.lol/files/update-year.js" defer></script>
-<script src="https://kenei.weblog.lol/files/collapse-code.js" defer></script>
+<script src="https://kenei.weblog.lol/files/update-year.js"></script>
+<script src="https://kenei.weblog.lol/files/collapse-code.js"></script>
 
 </body>
 </html>
