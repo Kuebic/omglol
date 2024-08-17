@@ -22,7 +22,7 @@ Location: /files/style.css
 @media (prefers-color-scheme: dark) {
     :root {
         --foreground: #ECEFF4; /* nord6 */
-        --background: #2E3440; /* nord0 */
+        --background: #FFFFFF; /* nord0 2E3440*/
         --link: #88C0D0;      /* nord8 */
         --accent: #81A1C1;    /* nord9 */
         --highlight: #A3BE8C; /* nord14 */
