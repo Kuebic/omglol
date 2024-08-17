@@ -180,10 +180,7 @@ pre code {
 }
 
 .collapsible-button {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    width: 100%; /* Ensure button takes the width of the code block */
     background: rgba(46, 52, 64, 0.8); /* Slightly transparent background */
     color: var(--tag-color); /* Use tag color for text */
     padding: 0.3em;
@@ -192,8 +189,8 @@ pre code {
     font-size: 0.75em;
     cursor: pointer;
     border-top: 1px solid var(--accent);
-    border-radius: 0 0 5px 5px;
     transition: background-color 0.3s, color 0.3s;
+    border-radius: 0 0 5px 5px;
 }
 
 .collapsible-button:hover {
@@ -207,6 +204,7 @@ pre code {
 .collapsible.expanded .collapsible-button {
     background: rgba(46, 52, 64, 0.8); /* Keep the button visible but subtle */
 }
+
 
 img {
 	max-width: 100%;
