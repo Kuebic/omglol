@@ -6,11 +6,11 @@ Location: /songs/holy-songs/01_blessing-of-glory
 Tags: songs, holy-songs
 ---
 
-# Blessing of Glory PAGE
+# Blessing of Glory
 
 ```chordpro
 {title: Blessing of Glory}
-{subtitle: }
+{subtitle: Subtitle}
 {key: C}
 
 {c:verse 1}
