@@ -39,8 +39,8 @@ Title: Song
     <p>&copy; <span id="current-year"></span> <a href="{base-path}">{weblog-title}</a>. All rights reserved.</p>
     <button onclick="window.location.href='#home'">Back to Top</button>
 </footer>
-
-
-
+<script>
+	document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
