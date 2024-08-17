@@ -1,5 +1,6 @@
 ---
-Type: Song
+Type: Page
+Template: Song
 Title: Blessing of Glory
 Location: /songs/holy-songs/01_blessing-of-glory
 Tags: songs, holy-songs
