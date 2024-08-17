@@ -1,5 +1,5 @@
 Type: Template
-Title: Song Template
+Title: Song
 
 <!DOCTYPE html>
 <html lang="en">
@@ -321,7 +321,7 @@ body.chordpro-verse:first-of-type {
 </header>
 
 <main>
-
+<p>THIS IS THE SONG TEMPALTE</p>
 {body}
 
 <aside class="post-tags">
