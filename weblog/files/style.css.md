@@ -290,9 +290,9 @@ body.chordpro-verse:first-of-type {
   font-weight: bold;
   font-size: 0.9em;
   margin-bottom: -.2em;
-  padding-bottom: -0.3em;
 }
 .chordpro-text {
   position: relative;
   display: block;
+  padding-bottom: 0.3em;
 }
