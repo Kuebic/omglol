@@ -294,5 +294,5 @@ body.chordpro-verse:first-of-type {
 .chordpro-text {
   position: relative;
   display: block;
-  padding-bottom: 0.3em;
+  padding-bottom: 0.6em;
 }
