@@ -286,11 +286,11 @@ body.chordpro-verse:first-of-type {
 .chordpro-chord {
   position: relative;
   display: block;
-  padding-top: 1em;
   padding-right: 5px;
   font-weight: bold;
   font-size: 0.9em;
   margin-bottom: -.2em;
+  padding-bottom: 0.3em;
 }
 .chordpro-text {
   position: relative;
