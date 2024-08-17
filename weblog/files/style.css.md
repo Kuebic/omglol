@@ -289,7 +289,7 @@ body.chordpro-verse:first-of-type {
   padding-right: 5px;
   font-weight: bold;
   font-size: 0.9em;
-  margin-bottom: -.7em;
+  margin-bottom: -.6em;
 }
 .chordpro-text {
   position: relative;
