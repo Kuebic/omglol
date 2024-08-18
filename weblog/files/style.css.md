@@ -315,15 +315,23 @@ body.chordpro-verse:first-of-type {
 }
 
 /* Add some basic styling to the buttons */
+/* Adjusted styling for transpose buttons to match Nord theme */
 .transpose-btn {
     cursor: pointer;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 3px;
+    background-color: var(--button-bg); /* Use the Nord button background color */
+    color: var(--button-text);          /* Use the Nord button text color */
+    border: 2px solid var(--accent);    /* Add a border that matches the accent color */
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    border-radius: 20px;                /* Soft border radius for a smoother appearance */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Add a transition for hover effects */
 }
+
 .transpose-btn:hover {
-    background-color: #0056b3;
+    background-color: var(--highlight); /* Use the Nord highlight color on hover */
+    color: var(--foreground);           /* Ensure text contrast on hover */
+    transform: scale(1.05);             /* Slight scaling effect on hover */
 }
