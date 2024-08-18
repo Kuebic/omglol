@@ -273,15 +273,19 @@ body.chordpro-verse:first-of-type {
     margin-top: 1em;
 }
 .chordpro-verse {
-  height: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end; /* Align chords and text properly */
 }
 .chordpro-chorus {
   padding-left: 10px;
   border-left: 4px solid #777;
 }
 .chordpro-elem {
-  position: relative;
   display: inline-block;
+  vertical-align: bottom;
+  margin-bottom: 0.5em; /* Adjust as needed for spacing */
+  word-wrap: break-word; /* Ensure words break properly */
 }
 .chordpro-chord {
   position: relative;
@@ -295,7 +299,9 @@ body.chordpro-verse:first-of-type {
   position: relative;
   display: block;
 }
-
+.chordpro-elem, .chordpro-verse {
+  word-break: break-word;
+}
 .chordpro-words::before {
   content: "Words: ";
 }
