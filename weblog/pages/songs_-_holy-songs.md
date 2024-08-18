@@ -44,4 +44,5 @@ Location: /songs/holy-songs
 #### [Song of the Banquet](/songs/holy-songs/36_song-of-the-banquet)
 #### [Our Forefathers](/songs/holy-songs/37_our-forefathers)
 #### [Light of Grace](/songs/holy-songs/38_light-of-grace)
+#### [Tan Shim Ga](/songs/holy-songs/39_tan-shim-ga)
 #### [Urie So Wonun Tongil](/songs/holy-songs/40_urie-so-wonun-tongil)

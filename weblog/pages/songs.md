@@ -7,3 +7,4 @@ Location: /songs
 ## Songs
 #### [Camp](/songs/camp)
 #### [Holy Songs](/songs/holy-songs)
+#### [Special Arrangements](/songs/special-arrangements)

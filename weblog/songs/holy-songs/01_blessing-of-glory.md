@@ -13,37 +13,37 @@ Tags: songs, holy-songs
 {words: Rev. Sun Myung Moon}
 {music: Duk Chin Kim}
 {year: 1950}
-{key: C}
+{key: G}
 
 {sov: VERSE 1}
-Now the [C]light of [Am]glory a[C]rises like the sun that [F]shines on [C]high;    [G7]
-Now a[Am]waken into [Em]freedom, O re[C]vive, you spirits, [F]O re[C]vive!
-Wake the [Am]mountains and the [Dm/F]val[F]leys; bring [Dm7]alive the [G7]springs of the [C]earth.  [G]
-Light the [C]world for[Am]ever with the [Em]Light of [Am]your re[Em]birth.  [C7]
-Light the [F]world fore[C]ver [Am]with the [C]Light of [G7]your re[C]birth.
+Now the [G]light of [Em]glory a[G]rises like the sun that [C]shines on [G]high;    [D7]
+Now a[Em]waken into [Bm]freedom, O re[G]vive, you spirits, [C]O re[G]vive!
+Wake the [Em]mountains and the [Am/F]val[C]leys; bring [Am7]alive the [D7]springs of the [G]earth.  [D]
+Light the [G]world for[Em]ever with the [Bm]Light of [Em]your re[Bm]birth.  [G7]
+Light the [C]world fore[G]ver [Em]with the [G]Light of [D7]your re[G]birth.
 {eov}
 
 {sov: VERSE 2}
-We are [C]called to [Am]bring back the [C]glory to the life of [F]God a[C]bove;    [G7]
-Now the [Am]Lord in His [Em]greatness fills the [C]universe with [F]tender [C]love,
-Ever [Am]seeking souls a[Dm/F]wa[F]kened, ever [Dm7]calling [G7]them to be [C]free. [G7]
-How [C]shall I at[Am]tend Him who is [Em]cal[Am]ling to [Em]me?  [C7]
-How shall [F]I at[C]tend [Am]Him who is [C]cal[G7]ling to [C]me?
+We are [G]called to [Em]bring back the [G]glory to the life of [C]God a[G]bove;    [D7]
+Now the [Em]Lord in His [Bm]greatness fills the [G]universe with [C]tender [G]love,
+Ever [Em]seeking souls a[Am/F]wa[C]kened, ever [Am7]calling [D7]them to be [G]free. [D7]
+How [G]shall I at[Em]tend Him who is [Bm]cal[Em]ling to [Bm]me?  [G7]
+How shall [C]I at[G]tend [Em]Him who is [G]cal[D7]ling to [G]me?
 {eov}
 
 {sov: VERSE 3}
-From the [C]dark of [Am]death I a[C]waken and rejoice to [F]live in [C]grace;   [G7]
-When the [Am]one who came to [Em]save me holds me [C]tenderly in [F]His em[C]brace;
-How can [Am]I return the [Dm/F]bles[F]sing? Though in [Dm7]all my [G7]life I will [C]try.   [G7]
-What a [C]blessing of [Am]glory, to re[Em]joice e[Am]ternal[Em]ly!   [C7]
-What a [F]blessing of [C]glory, to re[C]joice e[G7]ternal[C]ly!
+From the [G]dark of [Em]death I a[G]waken and rejoice to [C]live in [G]grace;   [D7]
+When the [Em]one who came to [Bm]save me holds me [G]tenderly in [C]His em[G]brace;
+How can [Em]I return the [Am/F]bles[C]sing? Though in [Am7]all my [D7]life I will [G]try.   [D7]
+What a [G]blessing of [Em]glory, to re[Bm]joice e[Em]ternal[Bm]ly!   [G7]
+What a [C]blessing of [G]glory, to re[G]joice e[D7]ternal[G]ly!
 {eov}
 
 {sov: VERSE 4}
-Now He [C]lifts me up to em[Am]brace me in the blessing [F]that is [C]mine  [G7]
-What a [Am]blessing to re[Em]ceive Him in a [C]love so tender [F]and de[C]vine
-How can [Am]I return the [Dm/F]bles[F]sing? Though in [Dm7]all my [G7]life I will [C]try   [G]
-I can [C]never stop [Am]feeling how un[Em]wor[Am]thy am [Em]I.  [C7]
-I can [F]never stop feel[C]ing [Am]  how un[C]wor[G7]thy am [C]I!
+Now He [G]lifts me up to em[Em]brace me in the blessing [C]that is [G]mine  [D7]
+What a [Em]blessing to re[Bm]ceive Him in a [G]love so tender [C]and de[G]vine
+How can [Em]I return the [Am/F]bles[C]sing? Though in [Am7]all my [D7]life I will [G]try   [D]
+I can [G]never stop [Em]feeling how un[Bm]wor[Em]thy am [Bm]I.  [G7]
+I can [C]never stop feel[G]ing [Em]  how un[G]wor[D7]thy am [G]I!
 {eov}
 ```
