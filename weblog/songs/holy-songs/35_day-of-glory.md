@@ -8,7 +8,7 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
-```chordpro|transpose:D
+```chordpro|transpose:-2
 {title: Day of Glory}
 {words: Yun Young Yang}
 {music: Yun Young Yang}
