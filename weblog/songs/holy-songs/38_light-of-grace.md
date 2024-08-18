@@ -21,13 +21,16 @@ Tags: songs, holy-songs
 {eov}
 
 {soc: CHORUS}
-[Bb]I'll give my life, [Gm]and my [F]love, [Bb]unto the [Eb]one [F7]God of [Bb]love.
+[Bb]I'll give my life, [Gm]and my [F]love,
+[Bb]unto the [Eb]one [F7]God of [Bb]love.
 {eoc}
 
 {sov: VERSE 2}
-[Bb]Though clouds may come, [Eb]hiding His face,
+[Bb]Though clouds may come,
+[Eb]hiding His face,
 [Bb]Hiding the smile of my [F]God,
-[Bb]Though clouds may come, [Eb]Still He is there,
+[Bb]Though clouds may come,
+[Eb]Still He is there,
 [Bb]Shining brightly, [F7]Cod is [Bb]love.
 {eov}
 

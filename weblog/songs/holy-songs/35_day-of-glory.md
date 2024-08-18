@@ -13,7 +13,7 @@ Tags: songs, holy-songs
 {words: Yun Young Yang}
 {music: Yun Young Yang}
 {year: 1958}
-{key: E}
+{key: D}
 
 {sov: VERSE 1}
 [E]Through silent [C#m]darkness [B]comes, [D]His constant [E]clearest voice.
