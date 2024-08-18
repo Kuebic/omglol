@@ -6,7 +6,7 @@ Location: /songs/holy-songs/01_blessing-of-glory
 Tags: songs, holy-songs
 ---
 
-#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: Blessing of Glory}

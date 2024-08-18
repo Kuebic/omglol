@@ -6,7 +6,7 @@ Location: /songs/holy-songs/12_song-of-the-young-people
 Tags: songs, holy-songs
 ---
 
-#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: Song of the Young People}

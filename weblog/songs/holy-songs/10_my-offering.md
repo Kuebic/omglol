@@ -6,7 +6,7 @@ Location: /songs/holy-songs/10_my-offering
 Tags: songs, holy-songs
 ---
 
-#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: My Offering}

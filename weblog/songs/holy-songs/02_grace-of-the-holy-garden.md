@@ -6,7 +6,7 @@ Location: /songs/holy-songs/02_grace-of-the-holy-garden
 Tags: songs, holy-songs
 ---
 
-#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: Grace of the Holy Garden}

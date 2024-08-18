@@ -6,7 +6,7 @@ Location: /songs/holy-songs/09_the-lord-has-come
 Tags: songs, holy-songs
 ---
 
-#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: The Lord has Come}

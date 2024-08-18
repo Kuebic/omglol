@@ -6,7 +6,7 @@ Location: /songs/holy-songs/03_new-song-of-inspiration
 Tags: songs, holy-songs
 ---
 
-#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: New Song of Inspiration}

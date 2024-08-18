@@ -6,7 +6,7 @@ Location: /songs/holy-songs/06_song-of-the-victors
 Tags: songs, holy-songs
 ---
 
-#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: Song of the Victors}
