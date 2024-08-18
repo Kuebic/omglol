@@ -307,3 +307,65 @@ body.chordpro-verse:first-of-type {
 .chordpro-music::before {
   content: "Music: ";
 }
+
+/* Flexbox for better alignment of chords and lyrics */
+.chordpro-elem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 0.5em; /* Adds space between lines */
+}
+
+/* Ensure chords and text align well on mobile */
+.chordpro-chord {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: -0.4em; /* Adjust this value to prevent too much overlap */
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.chordpro-text {
+  font-size: 1em;
+  display: inline-block;
+  padding-left: 1px; /* Small padding to avoid touching chords */
+  white-space: pre-wrap; /* Ensure long lines wrap properly */
+}
+
+/* Responsive font sizes and line heights for better mobile readability */
+@media (max-width: 768px) {
+  .chordpro-chord {
+    font-size: 0.8em; /* Slightly smaller on mobile */
+  }
+
+  .chordpro-text {
+    font-size: 0.9em; /* Adjust to maintain readability */
+    line-height: 1.4em; /* Ensure adequate spacing */
+  }
+
+  .chordpro-verse,
+  .chordpro-chorus {
+    line-height: 1.6em; /* Adjust to prevent overlap */
+    padding-left: 5px; /* Ensure text doesn't touch the edge */
+  }
+}
+
+/* Overflow and wrapping adjustments */
+.chordpro-verse,
+.chordpro-chorus {
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+/* Ensure the chords stay aligned properly above the lyrics */
+.chordpro-elem {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.7em; /* Space between lines */
+}
+
+.chordpro-chorus {
+  padding-left: 10px;
+  border-left: 4px solid #777;
+}

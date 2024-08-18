@@ -10,7 +10,9 @@ Tags: songs, holy-songs
 
 ```chordpro
 {title: New Song of Inspiration}
-{subtitle:}
+{words: Rev. Sun Myung Moon}
+{music: Duk Chin Kim}
+{year: 1947}
 {key: C}
 
 {sov: VERSE 1}
