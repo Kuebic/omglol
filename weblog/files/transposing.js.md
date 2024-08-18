@@ -7,66 +7,106 @@ Location: /files/transposing.js
 const chordArray = ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "A♯", "B"];
 const flatChordArray = ["C", "D♭", "D", "E♭", "E", "F", "G♭", "G", "A♭", "A", "B♭", "B"];
 
-// Function to transpose a chord
-function transposeChord(chord, semitones) {
-    // Match the root note and suffix, handling sharp (♯) and flat (♭)
-    const match = chord.match(/^([A-G])([♯♭#b]?)(.*)$/);
-    if (!match) return chord;  // If it's not a valid chord, return as-is
+// Define a variable to track the current enharmonic setting (true = sharp, false = flat)
+let useSharps = true;
 
-    let root = match[1];  // The root note (e.g., C, G, A)
-    let accidental = match[2];  // The accidental (e.g., ♯, ♭, #, b)
-    const suffix = match[3];  // The suffix (e.g., m, 7, /F)
+// Function to toggle between sharp and flat enharmonic equivalents
+function toggleEnharmonic() {
+    useSharps = !useSharps; // Toggle the setting
+
+    // Update all chords on the page to reflect the new enharmonic preference
+    const chords = document.querySelectorAll('.chordpro-chord');
+    chords.forEach(chord => {
+        let originalChord = chord.textContent.trim();
+        let newChord = convertEnharmonic(originalChord);
+        chord.innerHTML = newChord.replace(/b/g, "♭").replace(/#/g, "♯");  // Replace normalized 'b' with ♭ and '#' with ♯
+    });
+
+    // Update the key element
+    const keyElement = document.querySelector('.chordpro-key');
+    if (keyElement) {
+        let originalKey = keyElement.textContent.trim();
+        let newKey = convertEnharmonic(originalKey);
+        keyElement.textContent = newKey.replace(/b/g, "♭").replace(/#/g, "♯");  // Replace normalized 'b' with ♭ and '#' with ♯
+    }
+}
+
+// Function to convert a chord to the current enharmonic preference
+function convertEnharmonic(chord) {
+    const match = chord.match(/^([A-G])([♯♭#b]?)(.*)$/);
+    if (!match) return chord;
+
+    let root = match[1];
+    let accidental = match[2];
+    const suffix = match[3];
 
     let index;
-
-    // Normalize accidental to either sharp or flat
     if (accidental === "♯" || accidental === "#") {
         index = chordArray.indexOf(root + "♯");
     } else if (accidental === "♭" || accidental === "b") {
         index = flatChordArray.indexOf(root + "♭");
     } else {
-        // If no accidental, search in both arrays
         index = chordArray.indexOf(root);
         if (index === -1) {
             index = flatChordArray.indexOf(root);
         }
     }
 
-    if (index === -1) return chord;  // If the root is not found, return the original chord
+    if (index === -1) return chord;
 
-    // Calculate the new index with wrapping
-    const newIndex = (index + semitones + 12) % 12;
-
-    // Determine whether to use the sharp or flat name for the new chord
-    let newChord;
-    if (accidental === "♯" || accidental === "#") {
-        newChord = chordArray[newIndex];
-    } else if (accidental === "♭" || accidental === "b") {
-        newChord = flatChordArray[newIndex];
+    // Choose the correct enharmonic equivalent based on the current setting
+    if (useSharps) {
+        return chordArray[index] + suffix;
     } else {
-        // If no accidental, decide based on the nearest match (use flatChordArray for ♭ notes)
-        newChord = flatChordArray.indexOf(chordArray[newIndex]) !== -1 ? flatChordArray[newIndex] : chordArray[newIndex];
+        return flatChordArray[index] + suffix;
+    }
+}
+
+// Function to transpose a chord
+function transposeChord(chord, semitones) {
+    const match = chord.match(/^([A-G])([♯♭#b]?)(.*)$/);
+    if (!match) return chord;
+
+    let root = match[1];
+    let accidental = match[2];
+    const suffix = match[3];
+
+    let index;
+    if (accidental === "♯" || accidental === "#") {
+        index = chordArray.indexOf(root + "♯");
+    } else if (accidental === "♭" || accidental === "b") {
+        index = flatChordArray.indexOf(root + "♭");
+    } else {
+        index = chordArray.indexOf(root);
+        if (index === -1) {
+            index = flatChordArray.indexOf(root);
+        }
     }
 
-    // Return the transposed chord with the original suffix
-    return newChord + suffix;
+    if (index === -1) return chord;
+
+    const newIndex = (index + semitones + 12) % 12;
+
+    if (useSharps) {
+        return chordArray[newIndex] + suffix;
+    } else {
+        return flatChordArray[newIndex] + suffix;
+    }
 }
 
 // Function to transpose all chords on the page, including the key
 function transposeChords(semitones) {
-    // Transpose all chords
     const chords = document.querySelectorAll('.chordpro-chord');
     chords.forEach(chord => {
         let originalChord = chord.textContent.trim();
         let transposedChord = transposeChord(originalChord, semitones);
-        chord.innerHTML = transposedChord.replace(/b/g, "♭").replace(/#/g, "♯");  // Replace normalized 'b' with ♭ and '#' with ♯
+        chord.innerHTML = transposedChord.replace(/b/g, "♭").replace(/#/g, "♯");
     });
 
-    // Transpose the key element
     const keyElement = document.querySelector('.chordpro-key');
     if (keyElement) {
         let originalKey = keyElement.textContent.trim();
         let transposedKey = transposeChord(originalKey, semitones);
-        keyElement.textContent = transposedKey.replace(/b/g, "♭").replace(/#/g, "♯");  // Replace normalized 'b' with ♭ and '#' with ♯
+        keyElement.textContent = transposedKey.replace(/b/g, "♭").replace(/#/g, "♯");
     }
 }
