@@ -53,12 +53,12 @@ Title: Song
 		if (!match) return chord;  // If it's not a valid chord, return as-is
 
 		const root = match[1];  // The root note (e.g., C, G, A)l
-		print("root", root)
 		System.Println("root", root)
+		System.System.Printlnln("root", root)
 		const accidental = match[2];  // The accidental (e.g., #, b)
-		print("accidental", accidental)
+		System.Println("accidental", accidental)
 		const suffix = match[3];  // The suffix (e.g., m, 7, /F)
-		print("suffix", suffix)
+		System.Println("suffix", suffix)
 
 		// Determine the current index in either the sharp or flat chord array
 		let index = chordArray.indexOf(root + accidental);
@@ -70,11 +70,11 @@ Title: Song
 
 		// Calculate the new index with wrapping
 		const newIndex = (index + semitones + 12) % 12;
-		print("newIndex", newIndex)
+		System.Println("newIndex", newIndex)
 
 		// Choose the new chord name based on preference for sharps or flats
 		const newChord = chordArray[newIndex];
-		print("newChord", newChord)
+		System.Println("newChord", newChord)
 
 		// Return the transposed chord with the original suffix
 		return newChord + suffix;
