@@ -6,7 +6,7 @@ Location: /songs/holy-songs/05_spring-song-of-eden
 Tags: songs, holy-songs
 ---
 
-# [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: Spring Song of Eden}

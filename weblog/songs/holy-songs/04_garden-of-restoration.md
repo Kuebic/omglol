@@ -6,7 +6,7 @@ Location: /songs/holy-songs/04_garden-of-restoration
 Tags: songs, holy-songs
 ---
 
-# [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: Garden of Restoration}

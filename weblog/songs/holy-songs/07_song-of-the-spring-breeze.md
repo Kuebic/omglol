@@ -6,7 +6,7 @@ Location: /songs/holy-songs/07_song-of-the-spring-breeze
 Tags: songs, holy-songs
 ---
 
-# [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: Song of the Spring Breeze}

@@ -6,7 +6,7 @@ Location: /songs/holy-songs/08_oh-my-little-lambs
 Tags: songs, holy-songs
 ---
 
-# [Songs](/songs) - [Holy Songs](/songs/holy-songs)
+#### [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ```chordpro
 {title: Oh My Little Lambs}
