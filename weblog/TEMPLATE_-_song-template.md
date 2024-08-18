@@ -54,7 +54,7 @@ Title: Song
 
 		const root = match[1];  // The root note (e.g., C, G, A)l
 		console.log("root", root)
-		System.console.logln("root", root)
+		console.log("root", root)
 		const accidental = match[2];  // The accidental (e.g., #, b)
 		console.log("accidental", accidental)
 		const suffix = match[3];  // The suffix (e.g., m, 7, /F)
