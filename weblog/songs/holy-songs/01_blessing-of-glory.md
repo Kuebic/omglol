@@ -10,7 +10,9 @@ Tags: songs, holy-songs
 
 ```chordpro
 {title: Blessing of Glory}
-{subtitle:}
+{words: Rev. Sun Myung Moon}
+{music: Duk Chin Kim}
+{year: 1950}
 {key: C}
 
 {c:verse 1}

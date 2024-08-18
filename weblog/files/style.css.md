@@ -295,3 +295,15 @@ body.chordpro-verse:first-of-type {
   position: relative;
   display: block;
 }
+
+.chordpro-words::before {
+  content: "Words: ";
+}
+
+.chordpro-lyrics::before {
+  content: "Lyrics: ";
+}
+
+.chordpro-music::before {
+  content: "Music: ";
+}
