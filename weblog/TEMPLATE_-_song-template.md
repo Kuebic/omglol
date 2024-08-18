@@ -45,22 +45,26 @@ Title: Song
 </footer>
 <script>
     // Define the mapping for chords
-    const chordArray = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
-    const flatChordArray = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"];
+    const chordArray = ["C", "C♯", "D", "D♯", "E", "F", "F♯", "G", "G♯", "A", "A♯", "B"];
+    const flatChordArray = ["C", "D♭", "D", "E♭", "E", "F", "G♭", "G", "A♭", "A", "B♭", "B"];
 
     // Function to transpose a chord
     function transposeChord(chord, semitones) {
-        // Match the root note and suffix, handling sharp (#) and flat (♭/b)
-        const match = chord.match(/^([A-G])([#♭b]?)(.*)$/);
+        // Match the root note and suffix, handling sharp (♯) and flat (♭)
+        const match = chord.match(/^([A-G])([♯♭b]?)(.*)$/);
         if (!match) return chord;  // If it's not a valid chord, return as-is
 
         let root = match[1];  // The root note (e.g., C, G, A)
-        let accidental = match[2];  // The accidental (e.g., #, ♭, b)
+        let accidental = match[2];  // The accidental (e.g., ♯, ♭, b)
         const suffix = match[3];  // The suffix (e.g., m, 7, /F)
 
         // Handle the flat symbol as either ♭ or b
         if (accidental === "♭" || accidental === "b") {
-            accidental = "b";  // Normalize flat notation to 'b'
+            accidental = "b";  // Normalize flat notation to 'b' for processing
+        }
+        // Handle the sharp symbol as either ♯ or #
+        else if (accidental === "♯" || accidental === "#") {
+            accidental = "#";  // Normalize sharp notation to '#' for processing
         }
 
         // Determine the current index in either the sharp or flat chord array
@@ -88,12 +92,13 @@ Title: Song
         chords.forEach(chord => {
             let originalChord = chord.textContent.trim();
             let transposedChord = transposeChord(originalChord, semitones);
-            chord.innerHTML = transposedChord.replace(/b/g, "&#9837;").replace(/#/g, "&#9839;");  // Replace flat 'b' with HTML entity ♭ and sharp # with ♯
+            chord.innerHTML = transposedChord.replace(/b/g, "♭").replace(/#/g, "♯");  // Replace normalized 'b' with ♭ and '#' with ♯
         });
     }
 
     // Set the current year
-	document.getElementById('current-year').textContent = new Date().getFullYear();
+    document.getElementById('current-year').textContent = new Date().getFullYear();
 </script>
+
 </body>
 </html>
