@@ -307,3 +307,17 @@ body.chordpro-verse:first-of-type {
 .chordpro-music::before {
   content: "Music: ";
 }
+
+/* Add some basic styling to the buttons */
+.transpose-btn {
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+}
+.transpose-btn:hover {
+    background-color: #0056b3;
+}

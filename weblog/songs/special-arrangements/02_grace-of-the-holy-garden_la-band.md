@@ -8,7 +8,6 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
-[Traditional](/songs/holy-songs/02_grace-of-the-holy-garden)
 **Note**: This is the LA Band arrangement. Click [here](/songs/holy-songs/02_grace-of-the-holy-garden) for the traditional version.
 
 [Listen](https://www.youtube.com/watch?v=UkcH5aXRWlo)
@@ -22,7 +21,7 @@ Tags: songs, holy-songs
 {key: E}
 
 {c: Intro}
-[Emaj7]
+[EM7]
 
 {sov: VERSE 1}
 [E]Grace filling me with golden light,
