@@ -7,8 +7,8 @@ Weblog title: HSA Songbook
 Weblog description: Songs with good chords.
 Author: Kenei
 // Canonical domain: elsewhere.tld
-// Landing page: /
-Landing page template: Landing Page Template
+Landing page: /songs
+//Landing page template: Landing Page Template
 
 
 ;; General config stuff
