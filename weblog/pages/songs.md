@@ -4,6 +4,6 @@ Title: Songs
 Location: /songs
 ---
 
-# Songs
+## Songs
 #### [Camp](/songs/camp)
 #### [Holy Songs](/songs/holy-songs)

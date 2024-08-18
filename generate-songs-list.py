@@ -27,7 +27,7 @@ Title: Songs
 Location: /songs
 ---
 
-# Songs
+## Songs
 """)
 
     # Iterate over folders in the 'songs' directory
@@ -39,7 +39,7 @@ Location: /songs
 
             # Create a heading link for each folder in songs.md
             link = f"/songs/{folder_name.replace('_', '-')}"
-            songs_md.write(f"## [{folder_name_readable}]({link})\n")
+            songs_md.write(f"#### [{folder_name_readable}]({link})\n")
 
             # Generate a new file name with the "songs_-_" prefix
             folder_md_filename = f"songs_-_{folder_name}.md"
@@ -53,7 +53,7 @@ Title: Songs - {folder_name_readable}
 Location: /songs/{folder_name}
 ---
 
-# [Songs](/songs) - {folder_name_readable}
+## [Songs](/songs) - {folder_name_readable}
 """)
 
                 # Iterate over files in the folder and add links to the markdown file
@@ -62,6 +62,6 @@ Location: /songs/{folder_name}
                     if os.path.isfile(sub_folder_path) and sub_folder_name.endswith('.md'):
                         title, location = extract_metadata(sub_folder_path)
                         if title and location:
-                            folder_md.write(f"## [{title}]({location})\n")
+                            folder_md.write(f"#### [{title}]({location})\n")
 
 print("Markdown files have been generated successfully.")
