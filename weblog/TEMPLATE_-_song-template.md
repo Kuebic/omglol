@@ -49,7 +49,7 @@ Title: Song
     const flatChordArray = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"];
 
 	function transposeChord(chord, semitones) {
-		const match = chord.match(/^([A-G])([#b]?)(.*)$/);  // Match root note and suffix
+		const match = chord.match(/^([A-G])([#♭]?)(.*)$/);  // Match root note and suffix
 		if (!match) return chord;  // If it's not a valid chord, return as-is
 
 		console.log("match", match)
