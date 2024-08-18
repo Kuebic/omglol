@@ -50,25 +50,26 @@ Title: Song
 
     // Function to transpose a chord
     function transposeChord(chord, semitones) {
-        const match = chord.match(/^([A-G][#b]?)(.*)$/);  // Match the root note and suffix
+        const match = chord.match(/^([A-G])([#b]?)(.*)$/);  // Match root note and suffix
         if (!match) return chord;  // If it's not a valid chord, return as-is
 
-        const root = match[1];  // The root note (e.g., C, G#, Bb)
-        const suffix = match[2];  // The suffix (e.g., m, 7, /F)
+        const root = match[1];  // The root note (e.g., C, G, A)
+        const accidental = match[2];  // The accidental (e.g., #, b)
+        const suffix = match[3];  // The suffix (e.g., m, 7, /F)
 
-        // Find the index of the root in the chord array
-        let index = chordArray.indexOf(root);
+        // Determine the current index in either the sharp or flat chord array
+        let index = chordArray.indexOf(root + accidental);
         if (index === -1) {
-            index = flatChordArray.indexOf(root);
+            index = flatChordArray.indexOf(root + accidental);
         }
 
-        if (index === -1) return chord;  // If root is not found, return the original chord
+        if (index === -1) return chord;  // If the root is not found, return the original chord
 
         // Calculate the new index with wrapping
         const newIndex = (index + semitones + 12) % 12;
 
-        // Choose between sharp or flat representation based on the original root
-        const newChord = root.includes("b") ? flatChordArray[newIndex] : chordArray[newIndex];
+        // Choose the new chord name based on preference for sharps or flats
+        const newChord = chordArray[newIndex];
 
         // Return the transposed chord with the original suffix
         return newChord + suffix;
