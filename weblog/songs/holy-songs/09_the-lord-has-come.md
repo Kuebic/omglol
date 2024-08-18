@@ -10,7 +10,9 @@ Tags: songs, holy-songs
 
 ```chordpro
 {title: The Lord has Come}
-{subtitle:}
+{words: Duk Chin Kim}
+{music: Duk Chin Kim}
+{year: 1956}
 {key: C}
 
 O the Lord is come, O the Lord is come!

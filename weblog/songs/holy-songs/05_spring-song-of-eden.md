@@ -10,7 +10,7 @@ Tags: songs, holy-songs
 
 ```chordpro
 {title: Spring Song of Eden}
-{subtitle:}
+{subtitle: Korean Song}
 {key: C}
 
 Come, O ye friends, to the Garden of Eden,

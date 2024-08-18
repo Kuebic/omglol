@@ -10,7 +10,9 @@ Tags: songs, holy-songs
 
 ```chordpro
 {title: My Offering}
-{subtitle:}
+{words: Hyo Min Eu}
+{music: Hyo Min Eu}
+{year: 1956}
 {key: C}
 
 Now I have to come to know, I've truly come to know,

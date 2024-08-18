@@ -12,7 +12,6 @@ Tags: songs, camp
 {title: All the Lands That I Love}
 {subtitle: by: Kristina Morrison-Beher & Joshua Cotter}
 {key: G}
-{chords}
 
 {sov: VERSE 1}
 [C]I have been [G]wandering all [Am]over this [F]world

@@ -10,7 +10,9 @@ Tags: songs, holy-songs
 
 ```chordpro
 {title: Song of the Victors}
-{subtitle:}
+{words: Rev. Sun Myung Moon}
+{music: Duk Chin Kim}
+{year: 1947}
 {key: C}
 
 Sing a loud Hosanna to the Lord,

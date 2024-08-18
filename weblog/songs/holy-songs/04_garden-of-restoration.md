@@ -10,7 +10,9 @@ Tags: songs, holy-songs
 
 ```chordpro
 {title: Garden of Restoration}
-{subtitle:}
+{words: Rev. Sun Myung Moon}
+{music: Duk Chin Kim}
+{year: 1953}
 {key: C}
 
 In this world, embittered with hate, through the thousands of years,

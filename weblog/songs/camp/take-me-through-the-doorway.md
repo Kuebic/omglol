@@ -10,9 +10,8 @@ Tags: songs, camp
 
 ```chordpro
 {title: Take Me Through the Doorway}
-{subtitle: by: Joshua Cotter}
+{subtitle: Joshua Cotter}
 {key: G}
-{chords}
 
 {sov: VERSE 1}
 [G]In the kingdom [C]of our hearts where [D]dreams like rivers [Em]flow,

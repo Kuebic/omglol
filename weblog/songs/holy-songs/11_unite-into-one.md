@@ -10,7 +10,9 @@ Tags: songs, holy-songs
 
 ```chordpro
 {title: Unite into One}
-{subtitle:}
+{words: Duk Chin Kim}
+{music: Duk Chin Kim}
+{year: 1956}
 {key: C}
 
 Chase away the power of Satan, far away beyond the land and sea;

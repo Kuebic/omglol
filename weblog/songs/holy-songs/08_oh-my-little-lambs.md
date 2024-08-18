@@ -10,7 +10,8 @@ Tags: songs, holy-songs
 
 ```chordpro
 {title: Oh My Little Lambs}
-{subtitle:}
+{words: Cho Bong Pak}
+{music: Jai Hoon Pak}
 {key: C}
 
 O, my little lambs, wandering on the lonely plain.

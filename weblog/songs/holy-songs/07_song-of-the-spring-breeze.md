@@ -10,7 +10,7 @@ Tags: songs, holy-songs
 
 ```chordpro
 {title: Song of the Spring Breeze}
-{subtitle:}
+{subtitle: Korean Song}
 {key: C}
 
 Snow and cold wind of the bitter dark night,
