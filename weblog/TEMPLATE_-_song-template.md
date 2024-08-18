@@ -45,11 +45,14 @@ Title: Song
 </footer>
 <script>
     const chordMap = {
-        "C": 0, "C#": 1, "Db": 1, "D": 2, "D#": 3, "Eb": 3, "E": 4, "F": 5,
-        "F#": 6, "Gb": 6, "G": 7, "G#": 8, "Ab": 8, "A": 9, "A#": 10, "Bb": 10, "B": 11
+        "C": 0, "C#": 1, "Db": 1, "D": 2, "D#": 3, "Eb": 3, "E": 4, "Fb": 4, "E#": 5, "F": 5,
+        "F#": 6, "Gb": 6, "G": 7, "G#": 8, "Ab": 8, "A": 9, "A#": 10, "Bb": 10, "B": 11, "Cb": 11
     };
 
-    const chordArray = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+    const chordArray = [
+        ["C", "B#", "Dbb"], ["C#", "Db"], ["D"], ["D#", "Eb"], ["E", "Fb"],
+        ["F", "E#"], ["F#", "Gb"], ["G"], ["G#", "Ab"], ["A"], ["A#", "Bb"], ["B", "Cb"]
+    ];
 
     function transposeChords(semitones) {
         const chords = document.querySelectorAll('.chordpro-chord');
@@ -59,8 +62,9 @@ Title: Song
             let baseChord = originalChord.match(/[A-G][b#]?/)[0];
             let suffix = originalChord.slice(baseChord.length);
 
-            let newIndex = (chordMap[baseChord] + semitones + 12) % 12;
-            let newChord = chordArray[newIndex] + suffix;
+            let currentIndex = chordMap[baseChord];
+            let newIndex = (currentIndex + semitones + 12) % 12;
+            let newChord = chordArray[newIndex][0] + suffix;
 
             chord.innerHTML = newChord.replace("b", "&#9837;").replace("#", "&#9839;");
         });
