@@ -15,19 +15,30 @@ Tags: songs, holy-songs
 {year: 1958}
 {key: C}
 
-Through silent darkness comes, His constant clearest voice.
-His words of truth and life wake us up from sleep.
+{sov: VERSE 1}
+[E]Through silent [C#m]darkness [B]comes, [D]His constant [E]clearest voice.
+[(E)]His [A]words of [E]truth and life [B]wake us [E]up [F#7]from [B7]sleep.
+{eov}
 
-Chorus:
-	Glory, O Glory, O Glorious Lord,
-	Welcome, O Welcome, O Welcome Him now,
-	Giving all you have and join with our Lord,
-	One with our God, Sharing love and beauty evermore.
-	For now the day all men desire Day of celebration is at hand!
+{soc: CHORUS}
+[E]Glory, O [A]Glory, O [F#m]Glorious [B7]Lord,
+[E]Welcome, O [A]Welcome, O [F#m]Welcome Him [B]now,
+Giving all you have and [E]join with our Lord,
+[(E)]One with our God, [F#m]Sharing love and [B]beauty ever - [E]more.
+[(E)]For now the [C#m]day [E]all men de - [C#m]sire [F#m]Day of cele - [B7]bration is at [E]hand!
+{eoc}
 
-Sunrise and morning comes, we rise up in its light,
-Spread forth the word of good, giving all your strength.
+{sov: VERSE 2}
+[E]Sunrise and [C#m]morning [B]comes, [D]we rise up [E]in its light,
+[(E)]Spread [A]forth the [E]word of good, [B]giving [E]all [F#7]your [B7]strength.
+{sov}
 
-All holy children come, new days have dawned at last,
-March forward one and all, quickly now unite.
+{c:CHORUS}
+
+{sov: VERSE 3}
+[E]All holy [C#m]children [B]come, [D]new days have [E]dawned at last,
+[(E)]March [A]forward [E]one and all, [B]quickly [E]now [F#7]u-[B7]nite.
+{sov}
+
+{c:CHORUS}
 ```
