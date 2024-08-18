@@ -48,34 +48,38 @@ Title: Song
     const chordArray = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
     const flatChordArray = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"];
 
-	function transposeChord(chord, semitones) {
-		const match = chord.match(/^([A-G])([#♭]?)(.*)$/);  // Match root note and suffix
-		if (!match) return chord;  // If it's not a valid chord, return as-is
+    // Function to transpose a chord
+    function transposeChord(chord, semitones) {
+        // Match the root note and suffix, handling sharp (#) and flat (♭/b)
+        const match = chord.match(/^([A-G])([#♭b]?)(.*)$/);
+        if (!match) return chord;  // If it's not a valid chord, return as-is
 
-		console.log("match", match)
-		const root = match[1];  // The root note (e.g., C, G, A)l
-		const accidental = match[2];  // The accidental (e.g., #, b)
-		const suffix = match[3];  // The suffix (e.g., m, 7, /F)
+        let root = match[1];  // The root note (e.g., C, G, A)
+        let accidental = match[2];  // The accidental (e.g., #, ♭, b)
+        const suffix = match[3];  // The suffix (e.g., m, 7, /F)
 
-		// Determine the current index in either the sharp or flat chord array
-		let index = chordArray.indexOf(root + accidental);
-		if (index === -1) {
-			index = flatChordArray.indexOf(root + accidental);
-		}
+        // Handle the flat symbol as either ♭ or b
+        if (accidental === "♭" || accidental === "b") {
+            accidental = "b";  // Normalize flat notation to 'b'
+        }
 
-		if (index === -1) return chord;  // If the root is not found, return the original chord
+        // Determine the current index in either the sharp or flat chord array
+        let index = chordArray.indexOf(root + accidental);
+        if (index === -1) {
+            index = flatChordArray.indexOf(root + accidental);
+        }
 
-		// Calculate the new index with wrapping
-		const newIndex = (index + semitones + 12) % 12;
-		console.log("newIndex", newIndex)
+        if (index === -1) return chord;  // If the root is not found, return the original chord
 
-		// Choose the new chord name based on preference for sharps or flats
-		const newChord = chordArray[newIndex];
-		console.log("newChord", newChord)
+        // Calculate the new index with wrapping
+        const newIndex = (index + semitones + 12) % 12;
 
-		// Return the transposed chord with the original suffix
-		return newChord + suffix;
-	}
+        // Choose the new chord name based on preference for sharps or flats
+        const newChord = accidental === "b" ? flatChordArray[newIndex] : chordArray[newIndex];
+
+        // Return the transposed chord with the original suffix
+        return newChord + suffix;
+    }
 
     // Function to transpose all chords on the page
     function transposeChords(semitones) {
@@ -84,7 +88,7 @@ Title: Song
         chords.forEach(chord => {
             let originalChord = chord.textContent.trim();
             let transposedChord = transposeChord(originalChord, semitones);
-            chord.textContent = transposedChord;
+            chord.innerHTML = transposedChord.replace(/b/g, "&#9837;").replace(/#/g, "&#9839;");  // Replace flat 'b' with HTML entity ♭ and sharp # with ♯
         });
     }
 
