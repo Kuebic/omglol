@@ -6,6 +6,8 @@ Location: /songs/camp/all-the-lands-that-i-love
 Tags: songs, camp
 ---
 
+# [Songs](/songs) - [Camp](/songs/camp)
+
 ```chordpro
 {title: All the Lands That I Love}
 {subtitle: by: Kristina Morrison-Beher & Joshua Cotter}

@@ -6,6 +6,8 @@ Location: /songs/camp/take-me-through-the-doorway
 Tags: songs, camp
 ---
 
+# [Songs](/songs) - [Camp](/songs/camp)
+
 ```chordpro
 {title: Take Me Through the Doorway}
 {subtitle: by: Joshua Cotter}
