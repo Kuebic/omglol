@@ -16,3 +16,4 @@ Location: /songs/holy-songs
 ## [The Lord has Come](/songs/holy-songs/09_the-lord-has-come)
 ## [My Offering](/songs/holy-songs/10_my-offering)
 ## [Unite into One](/songs/holy-songs/11_unite-into-one)
+## [Song of the Young People](/songs/holy-songs/12_song-of-the-young-people)
