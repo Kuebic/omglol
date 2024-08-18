@@ -91,16 +91,25 @@ Title: Song
 		return newChord + suffix;
 	}
 
-	// Function to transpose all chords on the page
+	// Function to transpose all chords on the page, including the key
 	function transposeChords(semitones) {
+		// Transpose all chords
 		const chords = document.querySelectorAll('.chordpro-chord');
-
 		chords.forEach(chord => {
 			let originalChord = chord.textContent.trim();
 			let transposedChord = transposeChord(originalChord, semitones);
 			chord.innerHTML = transposedChord.replace(/b/g, "♭").replace(/#/g, "♯");  // Replace normalized 'b' with ♭ and '#' with ♯
 		});
+
+		// Transpose the key element
+		const keyElement = document.querySelector('.chordpro-key');
+		if (keyElement) {
+			let originalKey = keyElement.textContent.trim();
+			let transposedKey = transposeChord(originalKey, semitones);
+			keyElement.textContent = transposedKey.replace(/b/g, "♭").replace(/#/g, "♯");  // Replace normalized 'b' with ♭ and '#' with ♯
+		}
 	}
+
     // Set the current year
     document.getElementById('current-year').textContent = new Date().getFullYear();
 </script>
