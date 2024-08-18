@@ -44,31 +44,48 @@ Title: Song
     <p>&copy; <span id="current-year"></span> <a href="{base-path}">{weblog-title}</a> All rights reserved.</p>
 </footer>
 <script>
-    const chordMap = {
-        "C": 0, "C#": 1, "Db": 1, "D": 2, "D#": 3, "Eb": 3, "E": 4, "Fb": 4, "E#": 5, "F": 5,
-        "F#": 6, "Gb": 6, "G": 7, "G#": 8, "Ab": 8, "A": 9, "A#": 10, "Bb": 10, "B": 11, "Cb": 11
-    };
+    // Define the mapping for chords
+    const chordArray = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+    const flatChordArray = ["C", "Db", "D", "Eb", "E", "F", "Gb", "G", "Ab", "A", "Bb", "B"];
 
-    const chordArray = [
-        ["C", "B#", "Dbb"], ["C#", "Db"], ["D"], ["D#", "Eb"], ["E", "Fb"],
-        ["F", "E#"], ["F#", "Gb"], ["G"], ["G#", "Ab"], ["A"], ["A#", "Bb"], ["B", "Cb"]
-    ];
+    // Function to transpose a chord
+    function transposeChord(chord, semitones) {
+        const match = chord.match(/^([A-G](?:#|b)?)(.*)$/);  // Match the root note and suffix
+        if (!match) return chord;  // If it's not a valid chord, return as-is
 
+        const root = match[1];  // The root note (e.g., C, G#, Bb)
+        const suffix = match[2];  // The suffix (e.g., m, 7, /F)
+
+        // Find the index of the root in the chord array
+        let index = chordArray.indexOf(root);
+        if (index === -1) {
+            index = flatChordArray.indexOf(root);
+        }
+
+        if (index === -1) return chord;  // If root is not found, return the original chord
+
+        // Calculate the new index with wrapping
+        const newIndex = (index + semitones + 12) % 12;
+
+        // Choose between sharp or flat representation
+        const newChord = (root.includes("b")) ? flatChordArray[newIndex] : chordArray[newIndex];
+
+        // Return the transposed chord with the original suffix
+        return newChord + suffix;
+    }
+
+    // Function to transpose all chords on the page
     function transposeChords(semitones) {
         const chords = document.querySelectorAll('.chordpro-chord');
 
         chords.forEach(chord => {
             let originalChord = chord.textContent.trim();
-            let baseChord = originalChord.match(/[A-G][b#]?/)[0];
-            let suffix = originalChord.slice(baseChord.length);
-
-            let currentIndex = chordMap[baseChord];
-            let newIndex = (currentIndex + semitones + 12) % 12;
-            let newChord = chordArray[newIndex][0] + suffix;
-
-            chord.innerHTML = newChord.replace("b", "&#9837;").replace("#", "&#9839;");
+            let transposedChord = transposeChord(originalChord, semitones);
+            chord.textContent = transposedChord;
         });
     }
+
+    // Set the current year
 	document.getElementById('current-year').textContent = new Date().getFullYear();
 </script>
 </body>
