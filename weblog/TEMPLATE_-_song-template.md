@@ -52,7 +52,7 @@ Title: Song
 		const match = chord.match(/^([A-G])([#b]?)(.*)$/);  // Match root note and suffix
 		if (!match) return chord;  // If it's not a valid chord, return as-is
 
-		conosle.log("match", match)
+		console.log("match", match)
 		const root = match[1];  // The root note (e.g., C, G, A)l
 		const accidental = match[2];  // The accidental (e.g., #, b)
 		const suffix = match[3];  // The suffix (e.g., m, 7, /F)
