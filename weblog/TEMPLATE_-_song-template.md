@@ -52,12 +52,10 @@ Title: Song
 		const match = chord.match(/^([A-G])([#b]?)(.*)$/);  // Match root note and suffix
 		if (!match) return chord;  // If it's not a valid chord, return as-is
 
+		conosle.log("match", match)
 		const root = match[1];  // The root note (e.g., C, G, A)l
-		console.log("root", root)
 		const accidental = match[2];  // The accidental (e.g., #, b)
-		console.log("accidental", accidental)
 		const suffix = match[3];  // The suffix (e.g., m, 7, /F)
-		console.log("suffix", suffix)
 
 		// Determine the current index in either the sharp or flat chord array
 		let index = chordArray.indexOf(root + accidental);
