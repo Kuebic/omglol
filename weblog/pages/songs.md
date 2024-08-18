@@ -6,4 +6,4 @@ Location: /songs
 
 # Songs
 ## [Camp](/songs/camp)
-## [Holy-Songs](/songs/holy-songs)
+## [Holy Songs](/songs/holy-songs)
