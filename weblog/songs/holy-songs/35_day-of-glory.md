@@ -8,12 +8,12 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
-```chordpro
+```chordpro|transpose:D
 {title: Day of Glory}
 {words: Yun Young Yang}
 {music: Yun Young Yang}
 {year: 1958}
-{key: C}
+{key: E}
 
 {sov: VERSE 1}
 [E]Through silent [C#m]darkness [B]comes, [D]His constant [E]clearest voice.
