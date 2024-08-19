@@ -345,5 +345,5 @@ body.chordpro-verse:first-of-type {
 }
 
 .chordpro-key + div .transpose-btn {
-    left: 110%; /* Moves the buttons to the right of the .chordpro-key */
+    left: 210%; /* Moves the buttons to the right of the .chordpro-key */
 }
