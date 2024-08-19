@@ -14,13 +14,7 @@ Tags: songs, holy-songs
 {music: Duk Chin Kim}
 {year: 1950}
 {key: G}
-```
-<div>
-    <button class="transpose-btn" onclick="transposeChords(-1)">⟱</button>
-    <button class="transpose-btn" id="enharmonic-btn" onclick="toggleEnharmonic()">♭/♯</button>
-    <button class="transpose-btn" onclick="transposeChords(1)">⟰</button>
-</div>
-```
+
 {sov: VERSE 1}
 Now the [G]light of [Em]glory a[G]rises like the sun that [C]shines on [G]high;    [D7]
 Now a[Em]waken into [Bm]freedom, O re[G]vive, you spirits, [C]O re[G]vive!
