@@ -19,16 +19,15 @@ Title: Song
 <header>
 	<h1 class="weblog-title"><a href="{base-path}">{weblog-title}</a></h1>
 	{navigation}
-	<!-- Add buttons for transposing -->
-    <div>
-        <button class="transpose-btn" onclick="transposeChords(1)">Transpose Up</button>
-		<button class="transpose-btn" id="enharmonic-btn" onclick="toggleEnharmonic()">♯/♭</button>
-        <button class="transpose-btn" onclick="transposeChords(-1)">Transpose Down</button>
-    </div>
 </header>
 
 <main>
-
+	<!-- Add buttons for transposing -->
+    <div>
+        <button class="transpose-btn" onclick="transposeChords(-1)">⟰</button>
+		<button class="transpose-btn" id="enharmonic-btn" onclick="toggleEnharmonic()">♭/♯</button>
+		<button class="transpose-btn" onclick="transposeChords(1)">⟱</button>
+    </div>
 {body}
 
 <aside class="post-tags">

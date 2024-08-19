@@ -266,7 +266,9 @@ button:hover {
     line-height: 1.5em;
     font-weight: bold;
     margin: 1em 0;
+    position: relative;
 }
+
 body.chordpro-verse:first-of-type {
     border-top: 1px solid #000;
     padding-top: 1em;
@@ -302,6 +304,9 @@ body.chordpro-verse:first-of-type {
 .chordpro-elem, .chordpro-verse {
   word-break: break-word;
 }
+
+
+
 .chordpro-words::before {
   content: "Words: ";
 }
@@ -328,10 +333,17 @@ body.chordpro-verse:first-of-type {
     font-size: 1em;
     font-weight: 700;
     transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Add a transition for hover effects */
+    position: absolute;
+    top: 50%; /* Vertically centers the buttons */
+    transform: translateY(-50%); /* Adjusts the vertical centering */
 }
 
 .transpose-btn:hover {
     background-color: var(--highlight); /* Use the Nord highlight color on hover */
     color: var(--foreground);           /* Ensure text contrast on hover */
     transform: scale(1.05);             /* Slight scaling effect on hover */
+}
+
+.chordpro-key + div .transpose-btn {
+    left: 110%; /* Moves the buttons to the right of the .chordpro-key */
 }
