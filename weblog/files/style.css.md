@@ -266,9 +266,7 @@ button:hover {
     line-height: 1.5em;
     font-weight: bold;
     margin: 1em 0;
-    position: relative;
 }
-
 body.chordpro-verse:first-of-type {
     border-top: 1px solid #000;
     padding-top: 1em;
@@ -304,9 +302,6 @@ body.chordpro-verse:first-of-type {
 .chordpro-elem, .chordpro-verse {
   word-break: break-word;
 }
-
-
-
 .chordpro-words::before {
   content: "Words: ";
 }
@@ -322,7 +317,20 @@ body.chordpro-verse:first-of-type {
 /* Add some basic styling to the buttons */
 .transpose-btn {
     cursor: pointer;
-<<<<<<< HEAD
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 3px;
+}
+.transpose-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Adjusted styling for transpose buttons to match Nord theme */
+.transpose-btn {
+    cursor: pointer;
     background-color: var(--button-bg); /* Use the Nord button background color */
     color: var(--button-text);          /* Use the Nord button text color */
     border: 2px solid var(--accent);    /* Add a border that matches the accent color */
@@ -333,22 +341,10 @@ body.chordpro-verse:first-of-type {
     font-size: 1em;
     font-weight: 700;
     transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Add a transition for hover effects */
-    position: absolute;
-    top: 50%; /* Vertically centers the buttons */
-    transform: translateY(-50%); /* Adjusts the vertical centering */
-=======
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    margin: 5px;
-    border-radius: 3px;
->>>>>>> parent of 26d9e49... adjusted buttons to match Nord theme
-}
-.transpose-btn:hover {
-    background-color: #0056b3;
 }
 
-.chordpro-key + div .transpose-btn {
-    left: 210%; /* Moves the buttons to the right of the .chordpro-key */
+.transpose-btn:hover {
+    background-color: var(--highlight); /* Use the Nord highlight color on hover */
+    color: var(--foreground);           /* Ensure text contrast on hover */
+    transform: scale(1.05);             /* Slight scaling effect on hover */
 }

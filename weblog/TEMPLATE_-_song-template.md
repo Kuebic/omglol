@@ -24,9 +24,9 @@ Title: Song
 <main>
 	<!-- Add buttons for transposing -->
     <div>
-        <button class="transpose-btn" onclick="transposeChords(-1)">⟰</button>
+        <button class="transpose-btn" onclick="transposeChords(-1)">⟱</button>
 		<button class="transpose-btn" id="enharmonic-btn" onclick="toggleEnharmonic()">♭/♯</button>
-		<button class="transpose-btn" onclick="transposeChords(1)">⟱</button>
+		<button class="transpose-btn" onclick="transposeChords(1)">⟰</button>
     </div>
 {body}
 
