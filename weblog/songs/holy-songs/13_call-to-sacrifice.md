@@ -13,44 +13,77 @@ Tags: songs, holy-songs
 {words: Duk Chin Kim}
 {music: Duk Chin Kim}
 {year: 1956}
-{key: C}
+{key: D}
 
-Come unite the world you soldiers of Truth,
-Chosen by the Lord to carry His Word.
-Till the world proclaims Him ruler of all,
-Every soldier must go forward to fight.
-Offer God your life and desire, Uniting both the body and soul,
-We shall be the soldiers who can fulfill,
-Everything for God by doing His Will.
+{sov: VERSE 1}
+[D]Come unite the world you [Bm]soldiers of [D]Truth,
+Chosen by the [Bm]Lord to [D]carry His [A7]Word.
+[D]Till the world proclaims Him [Bm]ruler of [D]all,
+[F#m]Every soldier [Bm]must go [A7]forward to [D]fight.
+[D]Offer God your life and desire,
+U[G]niting both the [D]body and [A7]soul,
+[D]We shall be the soldiers [Bm]who can [D]fulfill,
+[F#m]Everything for [Bm]God by [A7]doing His [D]Will.
+{eov}
 
-	Chorus:
-	Join the fight for the Lord, sacrificing all that you have
-	Join the fight, win the world! We will see victory!
+{soc: CHORUS}
+Join the [G]fight for the [D]Lord,
+sacri[G]ficing [Em]all that you [A]have [D]
+Join the [G]fight, win the [D]world!
+We will [A7]see victo[D]ry!
+{eoc}
 
-Come unite the world you soldiers of light,
-Called to be the chosen people of God.
-Till the world returns all glory above,
-Every soldier must go forward to march.
-Offer God the wealth you possess,
-Uniting from beginning to end,
-We shall be the soldiers who can fulfill,
-Heavenly desire by doing His will.
+{sov: VERSE 2}
+[D]Come unite the world you [Bm]soldiers of [D]light,
+Called to be the [Bm]chosen [D]people of [A7]God.
+[D]Till the world returns all [Bm]glory a[D]bove,
+[F#m]Every soldier [Bm]must go [A7]forward to [D]march.
+[D]Offer God the wealth you possess,
+U[G]niting from be[D]ginning to [A7]end,
+[D]We shall be the soldiers [Bm]who can [D]fulfill,
+[F#m]Heavenly de[Bm]sire by [A7]doing His [D]will.
+{eov}
 
-Come unite the world you soldiers of right,
-Trusted by the Lord as worthy in heart,
-Till the world is bright with Heavenly joy,
-Every soldier must go forward to win.
-Offer God the love in your heart,
-Uniting on the left and the right,
- We shall be the soldiers who can fulfill,
-God's eternal joy by doing His will.
+{soc: CHORUS}
+Join the [G]fight for the [D]Lord,
+sacri[G]ficing [Em]all that you [A]have [D]
+Join the [G]fight, win the [D]world!
+We will [A7]see victo[D]ry!
+{eoc}
 
-Come unite the world you soldiers of life,
-Ever to obey our Father's command,
-Till the world returns His Heavenly love,
-Every soldier must go forward in faith.
-Offer God the people you love,
-Uniting both the young and the old,
-We shall be the soldiers who can fulfill,
-One united world by doing His will.
+{sov: VERSE 3}
+[D]Come unite the world you [Bm]soldiers of [D]right,
+Trusted by the [Bm]Lord as [D]worthy in [A7]heart,
+[D]Till the world is bright with [Bm]Heavenly [D]joy,
+E[F#m]Every soldier [Bm]must go [A7]forward to [D]win.
+[D]Offer God the love in your heart,
+U[G]niting on the [D]left and the [A7]right,
+[D]We shall be the soldiers [Bm]who can [D]fulfill,
+[F#m]God's eternal [Bm]joy by [A7]doing His [D]will.
+{eov}
+
+{soc: CHORUS}
+Join the [G]fight for the [D]Lord,
+sacri[G]ficing [Em]all that you [A]have [D]
+Join the [G]fight, win the [D]world!
+We will [A7]see victo[D]ry!
+{eoc}
+
+{sov: VERSE 4}
+[D]Come unite the world you [Bm]soldiers of [D]life,
+Ever to o[Bm]bey our [D]Father's com[A7]mand,
+[D]Till the world returns His [Bm]Heavenly [D]love,
+[F#m]Every soldier [Bm]must go [A7]forward in [D]faith.
+[D]Offer God the people you love,
+U[G]niting both the [D]young and the [A7]old,
+[D]We shall be the soldiers [Bm]who can [D]fulfill,
+[F#m]One united [Bm]world by [A7]doing His [D]will.
+{eov}
+
+{soc: CHORUS}
+Join the [G]fight for the [D]Lord,
+sacri[G]ficing [Em]all that you [A]have [D]
+Join the [G]fight, win the [D]world!
+We will [A7]see victo[D]ry!
+{eoc}
 ```
