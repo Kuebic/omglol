@@ -27,12 +27,22 @@ function toggleEnharmonic() {
     if (keyElement) {
         let originalKey = keyElement.textContent.trim();
         let newKey = convertEnharmonic(originalKey);
-        keyElement.textContent = newKey.replace(/b/g, "♭").replace(/#/g, "♯");  // Replace normalized 'b' with ♭ and '#' with ♯
+        keyElement.textContent = newKey.replace(/b/g, "♭").replace(/#/g, "♯");
     }
 }
 
-// Function to convert a chord to the current enharmonic preference
+// Function to convert a chord to the current enharmonic preference (handles bass notes as well)
 function convertEnharmonic(chord) {
+    // Handle slash chords (e.g., D/F♯)
+    const slashIndex = chord.indexOf('/');
+    if (slashIndex !== -1) {
+        const rootChord = chord.substring(0, slashIndex);
+        const bassNote = chord.substring(slashIndex + 1);
+        const convertedRoot = convertEnharmonic(rootChord);  // Recursive call for the root chord
+        const convertedBass = convertEnharmonic(bassNote);   // Recursive call for the bass note
+        return `${convertedRoot}/${convertedBass}`;
+    }
+
     const match = chord.match(/^([A-G])([♯♭#b]?)(.*)$/);
     if (!match) return chord;
 
@@ -62,8 +72,19 @@ function convertEnharmonic(chord) {
     }
 }
 
-// Function to transpose a chord
+// Function to transpose a chord (handles chords with bass notes as well)
 function transposeChord(chord, semitones) {
+    // Handle slash chords (e.g., D/F♯)
+    const slashIndex = chord.indexOf('/');
+    if (slashIndex !== -1) {
+        const rootChord = chord.substring(0, slashIndex);
+        const bassNote = chord.substring(slashIndex + 1);
+        const transposedRoot = transposeChord(rootChord, semitones);  // Recursive call
+        const transposedBass = transposeChord(bassNote, semitones);   // Recursive call
+        return `${transposedRoot}/${transposedBass}`;
+    }
+
+    // Regular chord transposition
     const match = chord.match(/^([A-G])([♯♭#b]?)(.*)$/);
     if (!match) return chord;
 
