@@ -17,7 +17,7 @@ Tags: songs, camp
 [C]I have been [G]wandering all [Am]over this [F]world
 [C]Looking for [G]something I [F]just couldn’t [C]find
 [C]Seems like I’m [G]moving in [Am]search of my[F]self
-[C]Where will I [G]find my [F]peace of [C]mind
+[C]Where will I [G]find my peace of [F]mind  [C]
 {eov}
 
 {soc: Chorus 1}
@@ -32,7 +32,7 @@ It’s been [C]such a [D]lonely [G]trail [/]  [C]  [/]  [|]
 [C]Finally a [G]welcome felt [Am]deep in my [F]soul
 I [C]know I will [G]find it in this [F]city of [C]gold
 [C]People so [G]friendly I [Am]know I will [F]meet
-My [C]heart’s pouring [G]open [F]please [C]take it for keeps
+My [C]heart’s pouring [G]open please [F]take it for [C]keeps
 {eov}
 
 {soc: Chorus 2}
