@@ -174,6 +174,48 @@ Title: Song
 
 		// Set the current year
 		document.getElementById('current-year').textContent = new Date().getFullYear();
+
+		//Tabbed Content
+		document.addEventListener('DOMContentLoaded', function() {
+				const tabs = document.querySelectorAll('h6');
+				const allContent = document.querySelectorAll('.chordpro-title, .chordpro-key, .chordpro-comment, .chordpro-verse, p');
+
+				// Wrap the tabs in a flex container
+				const tabContainer = document.createElement('div');
+				tabContainer.className = 'tabs-container';
+				tabs[0].parentNode.insertBefore(tabContainer, tabs[0]);
+
+				tabs.forEach(tab => {
+						tabContainer.appendChild(tab); // Move each tab into the flex container
+
+						tab.style.cursor = 'pointer'; // Make the tabs look clickable
+						tab.addEventListener('click', function() {
+								// Remove active class from all tabs
+								tabs.forEach(t => t.classList.remove('active-tab'));
+
+								// Hide all content sections
+								allContent.forEach(content => content.style.display = 'none');
+
+								// Add active class to the clicked tab
+								tab.classList.add('active-tab');
+
+								// Display the current section and the following content until the next <h6> or <hr> tag
+								let nextElement = tab.nextElementSibling;
+
+								while (nextElement && !nextElement.matches('h6, hr')) {
+										nextElement.style.display = 'block';
+										nextElement = nextElement.nextElementSibling;
+								}
+						});
+				});
+
+				// Trigger the first tab by default
+				if (tabs.length > 0) {
+						tabs[0].click();
+				}
+		});
+
+
 </script>
 
 </body>
