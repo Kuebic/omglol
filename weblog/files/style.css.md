@@ -352,9 +352,9 @@ body.chordpro-verse:first-of-type {
 /* === Style for the tab headers === */
 
 /* Hide all content by default */
-.chordpro-title, .chordpro-key, .chordpro-comment, .chordpro-verse, p {
+/*.chordpro-title, .chordpro-key, .chordpro-comment, .chordpro-verse, p {
     display: none;
-}
+}*/
 
 /* Tab styling */
 h6 {
