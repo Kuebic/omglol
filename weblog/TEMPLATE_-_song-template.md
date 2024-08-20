@@ -175,37 +175,50 @@ Title: Song
 		// Set the current year
 		document.getElementById('current-year').textContent = new Date().getFullYear();
 
-		//Tabbed Content
+		// Tabbed Content
 		document.addEventListener('DOMContentLoaded', function() {
 				const tabs = document.querySelectorAll('h6');
-				const allContent = document.querySelectorAll('.chordpro-title, .chordpro-key, .chordpro-comment, .chordpro-verse, p');
+				const tabContentMap = new Map();
 
-				// Wrap the tabs in a flex container
-				const tabContainer = document.createElement('div');
-				tabContainer.className = 'tabs-container';
-				tabs[0].parentNode.insertBefore(tabContainer, tabs[0]);
+				// Create a container to hold the content and insert it after the tab container
+				const contentContainer = document.createElement('div');
+				contentContainer.className = 'content-container';
+				tabs[0].parentNode.insertBefore(contentContainer, tabs[0].nextSibling);
 
+				// Map tabs to their corresponding content
 				tabs.forEach(tab => {
-						tabContainer.appendChild(tab); // Move each tab into the flex container
+						const content = [];
+						let nextElement = tab.nextElementSibling;
 
-						tab.style.cursor = 'pointer'; // Make the tabs look clickable
+						while (nextElement && !nextElement.matches('h6, hr')) {
+								content.push(nextElement);
+								nextElement = nextElement.nextElementSibling;
+						}
+
+						tabContentMap.set(tab, content);
+
+						// Initially hide all content
+						content.forEach(element => element.style.display = 'none');
+				});
+
+				// Handle tab click event
+				tabs.forEach(tab => {
 						tab.addEventListener('click', function() {
+								// Clear the content container
+								contentContainer.innerHTML = '';
+
 								// Remove active class from all tabs
 								tabs.forEach(t => t.classList.remove('active-tab'));
 
-								// Hide all content sections
-								allContent.forEach(content => content.style.display = 'none');
+								// Clone and show content associated with clicked tab
+								tabContentMap.get(tab).forEach(element => {
+										const clonedElement = element.cloneNode(true);
+										clonedElement.style.display = 'block';
+										contentContainer.appendChild(clonedElement);
+								});
 
-								// Add active class to the clicked tab
+								// Add active class to clicked tab
 								tab.classList.add('active-tab');
-
-								// Display the current section and the following content until the next <h6> or <hr> tag
-								let nextElement = tab.nextElementSibling;
-
-								while (nextElement && !nextElement.matches('h6, hr')) {
-										nextElement.style.display = 'block';
-										nextElement = nextElement.nextElementSibling;
-								}
 						});
 				});
 

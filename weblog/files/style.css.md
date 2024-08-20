@@ -349,14 +349,21 @@ body.chordpro-verse:first-of-type {
     transform: scale(1.05);             /* Slight scaling effect on hover */
 }
 
-/* Style for the tab headers */
+/* === Style for the tab headers === */
+
+/* Hide all content by default */
+.chordpro-title, .chordpro-key, .chordpro-comment, .chordpro-verse, p {
+    display: none;
+}
+
+/* Tab styling */
 h6 {
     cursor: pointer;
     padding: 10px;
     border-bottom: 2px solid transparent;
     font-weight: bold;
     margin-right: 15px;
-    display: inline-block; /* Change from block to inline-block to align tabs horizontally */
+    display: inline-block;
     color: var(--link);
     transition: color 0.3s, border-bottom-color 0.3s;
 }
@@ -370,29 +377,15 @@ h6:hover {
     color: var(--highlight);
 }
 
-/* Hide all content by default, except for the tabs */
-.chordpro-title, .chordpro-key, .chordpro-comment, .chordpro-verse, p {
-    display: none;
-}
-
-/* Optional: If you want the tabs to wrap instead of extending off-screen */
-h6 {
-    white-space: nowrap; /* Prevents tabs from wrapping to the next line */
-}
-
-h6 + h6 {
-    margin-left: -15px; /* Adjust negative margin to bring the tabs closer together */
-}
-
-/* Flexbox alternative if you want the tabs to be in a container */
+/* Flexbox container for tabs */
 .tabs-container {
     display: flex;
     align-items: flex-start;
-    flex-wrap: wrap; /* Allows tabs to wrap to the next line if needed */
-    margin-bottom: 10px; /* Space below the tabs */
+    flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
-/* Add this if you want to use the flexbox alternative */
-/* .tabs-container h6 {
-    margin-right: 15px;
-} */
+/* Content container styling */
+.content-container {
+    margin-top: 20px; /* Space between the tabs and the content */
+}
