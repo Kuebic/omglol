@@ -13,20 +13,20 @@ Tags: songs, holy-songs
 {words: Yun Young Yang}
 {music: Yun Young Yang}
 {year: 1956}
-{key: C}
+{key: Gm}
 
-See Lord Jesus bent in prayer, in the garden late at night,
-See Lord Jesus bent in prayer, in the garden late at night.
-See Him crying sweating blood watch it mingle with His tears;
-Twelve disciples all asleep, even Peter nods and snores.
-Iscariot comes with a kiss, hands Him over He is betrayed.
-How could it be? Tragic sight innocent Lord precious Lord.
-Twelve disciples watch from afar, everyone is running away.
-Jesus alone captured and chained; soldiers lead Him to the prison.
-Frightened Peter runs from the scene; with his tunic hides his face;
-Look at Peter treacherous man, now pretends he does not know.
-He who made the lame leap for joy, He who made the blind man see,
-He who freely walked on the waves, where are all those miracles now?
+[Cm]See Lord Jesus [Gm]bent in prayer, [Dm]in the garden [Cm]late at night,
+[Fm]See Lord Jesus [Cm]bent in prayer, [G7]in the garden [Cm]late at night.
+See Him crying [Gm]sweating blood [Dm]watch it mingle [Cm]with His tears;
+Twelve disciples [Gm]all asleep, [Dm]even Peter [Cm]nods and snores.
+Iscariot comes with a kiss, [G]hands Him [G7]over He is be[Cm]trayed.
+[Cm]How could it be? [Fm]Tragic [Cm]sight innocent Lord [Fm]precious [G7]Lord.
+[Cm]Twelve disciples [G]watch from a[Ab]far, [Dm]every[G]one is running [Cm]away.
+Jesus alone [Bm7]captured and [Cm]chained; [G]soldiers [G7]lead Him [Bm7]to the [Cm]prison.
+[Cm]Frightened Peter [Gm]runs from the scene; [Dm7]with his tunic [Cm]hides his face;
+[Fm]Look at Peter [Cm]treacherous man, [G]now pretends he [Bm]does [Cm]not know.
+He who made the [Gm]lame leap for joy, [Dm7]He who made the [Cm]blind man see,
+He who freely [Gm]walked on the waves, [Dm7]where are all those [Cm]miracles now?
 
 See Lord Jesus bent in shame, see Him bear His heavy cross,
 See Lord Jesus bent in shame, see Him bear His heavy cross.
