@@ -101,7 +101,7 @@ perfect rejoicing is [A]mine. [E/G#] [F#] [|] [B7]
 [E]Glorious the song [A]ringing in my heart
 [E]for my Father [B7]above; [A]
 [E]Gratefully I [E7]give [A]offering to Him,
-[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\\\\]
+[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\][\][\][\]
 {eoc}
 
 {sov: VERSE 2}
@@ -115,7 +115,7 @@ knowing that man will be [A]whole [E/G#] [F#] [|] [B7]
 [E]Glorious the song [A]ringing in my heart
 [E]for my Father [B7]above; [A]
 [E]Gratefully I [E7]give [A]offering to Him,
-[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\\\\]
+[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\][\][\][\]
 {eoc}
 
 {sov: VERSE 3}
@@ -129,7 +129,7 @@ blessing that never will [A]die. [E/G#] [F#] [|] [B7]
 [E]Glorious the song [A]ringing in my heart
 [E]for my Father [B7]above; [A]
 [E]Gratefully I [E7]give [A]offering to Him,
-[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\\\\]
+[E]triumph and glorious [A]love. [E/G#] [F#m] [|][\][\][\][\]
 {eoc}
 
 {sov: VERSE 4}
@@ -143,7 +143,7 @@ Father, my life is for [A]You. [E/G#] [F#] [|] [B7]
 [E]Glorious the song [A]ringing in my heart
 [E]for my Father [B7]above; [A]
 [E]Gratefully I [E7]give [A]offering to Him,
-[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\\\\]
+[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\][\][\][\]
 {eoc}
 ```
 <hr>
