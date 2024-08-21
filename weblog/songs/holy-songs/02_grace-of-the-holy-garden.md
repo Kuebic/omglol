@@ -75,7 +75,9 @@ Tags: songs, holy-songs
 {eoc}
 ```
 ---
+
 ###### Simplified
+
 ```chordpro
 {title: Grace of the Holy Garden}
 {subtitle: Simplified}
