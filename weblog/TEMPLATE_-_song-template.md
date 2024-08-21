@@ -211,6 +211,7 @@ document.addEventListener('DOMContentLoaded', function() {
         while (nextElement && nextElement.tagName !== 'H6' && nextElement.tagName !== 'HR') {
             // Only include elements that are not purely whitespace (e.g., empty text nodes)
             if (nextElement.nodeType === Node.ELEMENT_NODE) {
+								console.log(nextElement);
                 content.push(nextElement);
             }
             nextElement = nextElement.nextElementSibling;
@@ -224,9 +225,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Initially hide all content
         content.forEach(element => {
-            console.log("Hiding element:", element); // Debugging visibility
-            element.style.display = 'none';
-        });
+				console.log(`Hiding element under ${tab.textContent}:`, element);
+				element.style.display = 'none';
+				});
+
     });
 
     // Handle tab click event
