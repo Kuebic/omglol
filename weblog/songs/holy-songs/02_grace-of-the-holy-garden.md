@@ -75,6 +75,62 @@ Tags: songs, holy-songs
 {eoc}
 ```
 ---
+###### Simplified
+```chordpro
+{title: Grace of the Holy Garden}
+{subtitle: Simplified}
+{key: G}
+
+{sov: VERSE 1}
+[G]Grace filling me with golden light, measureless blessing di[C]vine;
+[G]God gives eternal life to me, perfect re[D]joicing is [G]mine.
+{eov}
+
+{soc: CHORUS}
+[G]Glorious the song [C]ringing in my heart
+[G]for my Father [D]above;
+[G]Gratefully I give [C]offering to Him,
+[G]triumph and [D]glorious [G]love.
+{eoc}
+
+{sov: VERSE 2}
+[G]Joy surging like an ocean wave,
+flowing so deep in my [C]soul;
+[G]Hope rises as I go in praise,
+[G]knowing that [D]man will be [G]whole
+{eov}
+
+{soc: CHORUS}
+[G]Glorious the song [C]ringing in my heart
+[G]for my Father [D]above;
+[G]Gratefully I give [C]offering to Him,
+[G]triumph and [D]glorious [G]love.
+{eoc}
+
+{sov: VERSE 3}
+[G]High, limitless eternal life, touching the top of the [C]sky;
+[G]Praise filling every part of me blessing that [D]never will [G]die.
+{eov}
+
+{soc: CHORUS}
+[G]Glorious the song [C]ringing in my heart
+[G]for my Father [D]above;
+[G]Gratefully I give [C]offering to Him,
+[G]triumph and [D]glorious [G]love.
+{eoc}
+
+{sov: VERSE 4}
+[G]You've chosen me to do Your will, thankful, I vow to be [C]true;
+[G]I'm pledging in my heart of hearts; Father, my [D]life is for [G]You.
+{eov}
+
+{soc: CHORUS}
+[G]Glorious the song [C]ringing in my heart
+[G]for my Father [D]above;
+[G]Gratefully I give [C]offering to Him,
+[G]triumph and [D]glorious [G]love.
+{eoc}
+
 
 ###### LA Band
 
