@@ -8,29 +8,33 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
+###### Basic
+
 ```chordpro
 {title: Spring Song of Eden}
 {subtitle: Korean Song}
+{time: 6/8}
 {key: C}
 
-Come, O ye friends, to the Garden of Eden,
-Where the spring blossoms are best;
-Joyfully singing together our song,
-Friends in our Eden regained,
-Here in the Garden together we'll meet,
-Singing new songs of joy.
+[C]Come, O ye friends, to the Garden of [Am]E[G]den,
+[C]Where the spring blossoms are [Dm]best;  [G7]
+[Dm]Joyfully [Em]singing to[Dm]gether our [Em]song,
+Friends in our [Am]Eden re[G]gained, [G7]
+[Am]Here in the [Em]Garden to[Am]gether we'll [Em]meet,
+Singing new [G7]songs of [C]joy.
 
-Come, O ye friends, to the Garden of Eden,
-Singing new songs of delight;
-Joyfully dancing together with song,
-Friends in our Eden rejoice,
-Here in the Garden together we'll dance,
-Singing new songs of joy.
+[C]Come, O ye friends, to the Garden of [Am]E[G]den,
+[C]Singing new songs of de[Dm]light;  [G7]
+[Dm]Joyfully [Em]dancing to[Dm]gether with [Em]song,
+Friends in our [Am]Eden re[G]joice,  [G7]
+[Am]Here in the [Em]Garden to[Am]gether we'll [Em]dance,
+Singing new [G7]songs of [C]joy.
 
-Come, O ye friends, to the Garden of Eden,
-Where joy and happiness reign;
-Joyfully sharing together our love,
-Here in the garden of peace;
-Come, ye, O come to the Garden my friends,
-Singing new songs of joy.
+[C]Come, O ye friends, to the Garden of [Am]E[G]den,
+[C]Where joy and happiness [Dm]reign;  [G7]
+[Dm]Joyfully [Em]sharing to[Em]gether our [Em]love,
+Here in the [Em]garden of [G]peace; {g78]}
+[Am]Come, ye, O [Em]come to the [Am]Garden my [Em]friends,
+Singing new [G7]songs of [C]joy.
 ```
+---
