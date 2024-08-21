@@ -39,7 +39,12 @@ Tags: songs, holy-songs
 [G]knowing that [D7]man will be [G]whole
 {eov}
 
-{CHORUS}
+{soc: CHORUS}
+[G]Glorious the song [C]ringing in my heart
+[G]for my Father [D7]above;
+[G]Gratefully I give [C]offering to Him,
+[G]triumph and [D7]glorious [G]love.
+{eoc}
 
 {sov: VERSE 3}
 [G]High, limitless e[Bm]ternal life,
@@ -48,7 +53,12 @@ Tags: songs, holy-songs
 [G]blessing that [D7]never will [G]die.
 {eov}
 
-{CHORUS}
+{soc: CHORUS}
+[G]Glorious the song [C]ringing in my heart
+[G]for my Father [D7]above;
+[G]Gratefully I give [C]offering to Him,
+[G]triumph and [D7]glorious [G]love.
+{eoc}
 
 {sov: VERSE 4}
 [G]You've chosen me to [Bm]do Your will,
@@ -57,7 +67,12 @@ Tags: songs, holy-songs
 [G]Father, my [D7]life is for [G]You.
 {eov}
 
-{CHORUS}
+{soc: CHORUS}
+[G]Glorious the song [C]ringing in my heart
+[G]for my Father [D7]above;
+[G]Gratefully I give [C]offering to Him,
+[G]triumph and [D7]glorious [G]love.
+{eoc}
 ```
 ---
 
@@ -96,7 +111,12 @@ flowing so deep in my [A]soul;
 knowing that man will be [A]whole [E/G#] [F#] [|] [B7]
 {eov}
 
-{CHORUS}
+{soc: CHORUS}
+[E]Glorious the song [A]ringing in my heart
+[E]for my Father [B7]above; [A]
+[E]Gratefully I [E7]give [A]offering to Him,
+[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\\\\]
+{eoc}
 
 {sov: VERSE 3}
 [E]High, limitless eternal life,
@@ -105,7 +125,12 @@ touching the top of the [A]sky;
 blessing that never will [A]die. [E/G#] [F#] [|] [B7]
 {eov}
 
-{CHORUS}
+{soc: CHORUS}
+[E]Glorious the song [A]ringing in my heart
+[E]for my Father [B7]above; [A]
+[E]Gratefully I [E7]give [A]offering to Him,
+[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\\\\]
+{eoc}
 
 {sov: VERSE 4}
 [E]You've chosen me to do Your will,
@@ -114,6 +139,11 @@ thankful, I vow to be [A]true;
 Father, my life is for [A]You. [E/G#] [F#] [|] [B7]
 {eov}
 
-{CHORUS}
+{soc: CHORUS}
+[E]Glorious the song [A]ringing in my heart
+[E]for my Father [B7]above; [A]
+[E]Gratefully I [E7]give [A]offering to Him,
+[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\\\\]
+{eoc}
 ```
 <hr>
