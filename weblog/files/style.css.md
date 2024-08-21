@@ -356,22 +356,24 @@ body.chordpro-verse:first-of-type {
     display: none;
 }*/
 
-/* Tab styling */
+/* Ensure all H6 elements are displayed as inline tabs */
 h6 {
     cursor: pointer;
-    padding: 10px;
+    padding: 10px 15px;
     border-bottom: 2px solid transparent;
     font-weight: bold;
-    margin-right: 15px;
+    margin-right: 10px;
     display: inline-block;
     color: var(--link);
     transition: color 0.3s, border-bottom-color 0.3s;
 }
 
+/* Hover effect for tabs */
 h6:hover {
     color: var(--highlight);
 }
 
+/* Active tab styling */
 .active-tab {
     border-bottom-color: var(--highlight);
     color: var(--highlight);
@@ -381,11 +383,13 @@ h6:hover {
 .tabs-container {
     display: flex;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-bottom: 10px;
+    border-bottom: 2px solid #ccc;
 }
 
 /* Content container styling */
 .content-container {
+    display: block; /* Ensure it's visible */
     margin-top: 20px; /* Space between the tabs and the content */
 }

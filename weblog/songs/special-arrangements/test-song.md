@@ -17,6 +17,7 @@ Tags: songs, holy-songs
 {c: Intro}
 [E7]
 ```
+<hr>
 
 ###### Simplified
 
@@ -27,6 +28,7 @@ Tags: songs, holy-songs
 {c: Intro}
 [E]
 ```
+<hr>
 
 ###### LA Band
 
@@ -40,3 +42,4 @@ Tags: songs, holy-songs
 {c: Intro}
 [EM7]
 ```
+<hr>

@@ -5,26 +5,47 @@ Location: /files/collapse-code.js
 
 document.addEventListener('DOMContentLoaded', function() {
     const tabs = document.querySelectorAll('h6');
-    const sections = document.querySelectorAll('h6, .chordpro-title, .chordpro-key, .chordpro-comment, .chordpro-verse, p');
+    const tabContentMap = new Map();
 
-    tabs.forEach((tab, index) => {
-        tab.style.cursor = 'pointer';
+    // Create a container to hold the content and insert it after the tab container
+    const contentContainer = document.createElement('div');
+    contentContainer.className = 'content-container';
+    tabs[0].parentNode.insertBefore(contentContainer, tabs[0].nextSibling);
+
+    // Map tabs to their corresponding content
+    tabs.forEach(tab => {
+        const content = [];
+        let nextElement = tab.nextElementSibling;
+
+        while (nextElement && !nextElement.matches('h6, hr')) {
+            content.push(nextElement);
+            nextElement = nextElement.nextElementSibling;
+        }
+
+        tabContentMap.set(tab, content);
+
+        // Initially hide all content
+        content.forEach(element => element.style.display = 'none');
+    });
+
+    // Handle tab click event
+    tabs.forEach(tab => {
         tab.addEventListener('click', function() {
-            // Reset all tabs and content sections
+            // Clear the content container
+            contentContainer.innerHTML = '';
+
+            // Remove active class from all tabs
             tabs.forEach(t => t.classList.remove('active-tab'));
-            sections.forEach(section => section.style.display = 'none');
 
-            // Set the clicked tab as active
+            // Clone and show content associated with clicked tab
+            tabContentMap.get(tab).forEach(element => {
+                const clonedElement = element.cloneNode(true);
+                clonedElement.style.display = 'block';
+                contentContainer.appendChild(clonedElement);
+            });
+
+            // Add active class to clicked tab
             tab.classList.add('active-tab');
-
-            // Display the current section and the following content until the next <h6> or <hr> tag
-            sections[index].style.display = 'block'; // Show the clicked <h6> tab
-            let nextElement = sections[index].nextElementSibling;
-
-            while (nextElement && !nextElement.matches('h6, hr')) {
-                nextElement.style.display = 'block';
-                nextElement = nextElement.nextElementSibling;
-            }
         });
     });
 

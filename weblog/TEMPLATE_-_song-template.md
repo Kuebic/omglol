@@ -176,58 +176,74 @@ Title: Song
 		document.getElementById('current-year').textContent = new Date().getFullYear();
 
 		// Tabbed Content
-		document.addEventListener('DOMContentLoaded', function() {
-				const tabs = document.querySelectorAll('h6');
-				const tabContentMap = new Map();
+document.addEventListener('DOMContentLoaded', function() {
+    const tabs = document.querySelectorAll('h6');
+    const tabContentMap = new Map();
 
-				// Create a container to hold the content and insert it after the tab container
-				const contentContainer = document.createElement('div');
-				contentContainer.className = 'content-container';
-				tabs[0].parentNode.insertBefore(contentContainer, tabs[0].nextSibling);
+    // Create a container to hold the content
+    const contentContainer = document.createElement('div');
+    contentContainer.className = 'content-container';
 
-				// Map tabs to their corresponding content
-				tabs.forEach(tab => {
-						const content = [];
-						let nextElement = tab.nextElementSibling;
+    // Create a flex container for the tabs
+    const tabsContainer = document.createElement('div');
+    tabsContainer.className = 'tabs-container';
 
-						while (nextElement && !nextElement.matches('h6, hr')) {
-								content.push(nextElement);
-								nextElement = nextElement.nextElementSibling;
-						}
+    // Insert the tabs container before the content container
+    tabs[0].parentNode.insertBefore(tabsContainer, tabs[0]);
 
-						tabContentMap.set(tab, content);
+    // Move all h6 elements into the tabs container
+    tabs.forEach(tab => {
+        tabsContainer.appendChild(tab);
+    });
 
-						// Initially hide all content
-						content.forEach(element => element.style.display = 'none');
-				});
+    // Insert the content container after the tabs container
+    tabsContainer.parentNode.insertBefore(contentContainer, tabsContainer.nextSibling);
 
-				// Handle tab click event
-				tabs.forEach(tab => {
-						tab.addEventListener('click', function() {
-								// Clear the content container
-								contentContainer.innerHTML = '';
+    // Map tabs to their corresponding content and initially hide content
+    tabs.forEach(tab => {
+        const content = [];
+        let nextElement = tab.nextElementSibling;
 
-								// Remove active class from all tabs
-								tabs.forEach(t => t.classList.remove('active-tab'));
+        // Collect all elements until the next h6 or hr
+        while (nextElement && !nextElement.matches('h6, hr')) {
+            content.push(nextElement);
+            nextElement = nextElement.nextElementSibling;
+        }
 
-								// Clone and show content associated with clicked tab
-								tabContentMap.get(tab).forEach(element => {
-										const clonedElement = element.cloneNode(true);
-										clonedElement.style.display = 'block';
-										contentContainer.appendChild(clonedElement);
-								});
+        // Map each tab to its associated content
+        tabContentMap.set(tab, content);
 
-								// Add active class to clicked tab
-								tab.classList.add('active-tab');
-						});
-				});
+        // Initially hide all content
+        content.forEach(element => element.style.display = 'none');
+    });
 
-				// Trigger the first tab by default
-				if (tabs.length > 0) {
-						tabs[0].click();
-				}
-		});
+    // Handle tab click event
+    tabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            // Clear the content container
+						console.log(contentContainer.innerHTML);
+            contentContainer.innerHTML = '';
+						console.log(contentContainer.innerHTML);
+            // Remove active class from all tabs
+            tabs.forEach(t => t.classList.remove('active-tab'));
 
+            // Clone and show content associated with clicked tab
+            tabContentMap.get(tab).forEach(element => {
+                const clonedElement = element.cloneNode(true); // Clone the element
+                clonedElement.style.display = 'block';
+                contentContainer.appendChild(clonedElement);
+            });
+
+            // Add active class to clicked tab
+            tab.classList.add('active-tab');
+        });
+    });
+
+    // Trigger the first tab by default
+    if (tabs.length > 0) {
+        tabs[0].click();
+    }
+});
 
 </script>
 
