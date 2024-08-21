@@ -14,6 +14,7 @@ Tags: songs, holy-songs
 {words: Rev. Sun Myung Moon}
 {music: Duk Chin Kim}
 {year: 1951}
+{time: 12/8}
 {key: C}
 
 [C]Darkness gaining power within, [Am]tempting my [C]soul to [G]fall. [G7]
