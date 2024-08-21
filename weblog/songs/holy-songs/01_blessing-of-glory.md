@@ -30,7 +30,7 @@ We are [G]called to [Em]bring back the [G]glory to the life of [C]God a[G]bove; 
 Now the [Em]Lord in His [Bm]greatness fills the [G]universe with [C]tender [G]love,
 Ever [Em]seeking souls a[C]wakened, ever [Am7]calling [D7]them to be [G]free. [D7]
 How [G]shall I at[Em]tend Him who is [Bm]cal[Em]ling to [Bm]me?  [G7]
-How shall [C]I at[G]tend [Em]Him who is [G]cal[D7]ling to [G]me?
+How shall [C]I attend [G]Him  [Em] who is [G]cal[D7]ling to [G]me?
 {eov}
 
 {sov: VERSE 3}
@@ -38,7 +38,7 @@ From the [G]dark of [Em]death I a[G]waken and rejoice to [C]live in [G]grace;   
 When the [Em]one who came to [Bm]save me holds me [G]tenderly in [C]His em[G]brace;
 How can [Em]I return the [C]blessing? Though in [Am7]all my [D7]life I will [G]try.   [D7]
 What a [G]blessing of [Em]glory, to re[Bm]joice e[Em]ternal[Bm]ly!   [G7]
-What a [C]blessing of [G]glory, to re[G]joice e[D7]ternal[G]ly!
+What a [C]blessing of [G]glory, [Em] to re[G]joice e[D7]ternal[G]ly!
 {eov}
 
 {sov: VERSE 4}

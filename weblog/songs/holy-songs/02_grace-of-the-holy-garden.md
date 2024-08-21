@@ -139,7 +139,7 @@ Father, my [D]life is for [G]You.
 [G]triumph and [D]glorious [G]love.
 {eoc}
 ```
-<hr>
+---
 
 ###### LA Band
 
@@ -208,4 +208,4 @@ Father, my life is for [A]You. [E/G#] [F#] [|] [B7]
 [E]triumph and glorious [A]love. [E/G#] [F#m] [|][\][\][\][\]
 {eoc}
 ```
-<hr>
+---
