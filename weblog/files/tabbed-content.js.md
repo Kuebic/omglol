@@ -1,7 +1,7 @@
 Type: file
 Content-Type: text/js
-Title: collapse-code
-Location: /files/collapse-code.js
+Title: tabbed-content
+Location: /files/tabbed-content.js
 
 document.addEventListener('DOMContentLoaded', function() {
     const tabs = document.querySelectorAll('h6');
