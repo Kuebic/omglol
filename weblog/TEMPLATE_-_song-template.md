@@ -188,7 +188,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const tabsContainer = document.createElement('div');
     tabsContainer.className = 'tabs-container';
 
-    // Insert the tabs container before the content container
+    // Insert the tabs container before the first h6 element
     tabs[0].parentNode.insertBefore(tabsContainer, tabs[0]);
 
     // Move all h6 elements into the tabs container
@@ -205,7 +205,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let nextElement = tab.nextElementSibling;
 
         // Collect all elements until the next h6 or hr
-        while (nextElement && !nextElement.matches('h6, hr')) {
+        while (nextElement && nextElement.tagName !== 'H6' && nextElement.tagName !== 'HR') {
             content.push(nextElement);
             nextElement = nextElement.nextElementSibling;
         }
@@ -224,10 +224,11 @@ document.addEventListener('DOMContentLoaded', function() {
 						console.log(contentContainer.innerHTML);
             contentContainer.innerHTML = '';
 						console.log(contentContainer.innerHTML);
+
             // Remove active class from all tabs
             tabs.forEach(t => t.classList.remove('active-tab'));
 
-            // Clone and show content associated with clicked tab
+            // Show content associated with clicked tab
             tabContentMap.get(tab).forEach(element => {
                 const clonedElement = element.cloneNode(true); // Clone the element
                 clonedElement.style.display = 'block';
