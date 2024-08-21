@@ -84,8 +84,10 @@ Tags: songs, holy-songs
 {key: G}
 
 {sov: VERSE 1}
-[G]Grace filling me with golden light, measureless blessing di[C]vine;
-[G]God gives eternal life to me, perfect re[D]joicing is [G]mine.
+[G]Grace filling me with golden light,
+measureless blessing di[C]vine;
+[G]God gives eternal life to me,
+perfect re[D]joicing is [G]mine.
 {eov}
 
 {soc: CHORUS}
@@ -110,8 +112,10 @@ flowing so deep in my [C]soul;
 {eoc}
 
 {sov: VERSE 3}
-[G]High, limitless eternal life, touching the top of the [C]sky;
-[G]Praise filling every part of me blessing that [D]never will [G]die.
+[G]High, limitless eternal life,
+touching the top of the [C]sky;
+[G]Praise filling every part of me
+blessing that [D]never will [G]die.
 {eov}
 
 {soc: CHORUS}
@@ -122,8 +126,10 @@ flowing so deep in my [C]soul;
 {eoc}
 
 {sov: VERSE 4}
-[G]You've chosen me to do Your will, thankful, I vow to be [C]true;
-[G]I'm pledging in my heart of hearts; Father, my [D]life is for [G]You.
+[G]You've chosen me to do Your will,
+thankful, I vow to be [C]true;
+[G]I'm pledging in my heart of hearts;
+Father, my [D]life is for [G]You.
 {eov}
 
 {soc: CHORUS}
@@ -157,7 +163,7 @@ perfect rejoicing is [A]mine. [E/G#] [F#] [|] [B7]
 [E]Glorious the song [A]ringing in my heart
 [E]for my Father [B7]above; [A]
 [E]Gratefully I [E7]give [A]offering to Him,
-[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\][\][\][\]
+[E]triumph and glorious [A]love. [E/G#] [F#m] [|][\][\][\][\]
 {eoc}
 
 {sov: VERSE 2}
@@ -171,7 +177,7 @@ knowing that man will be [A]whole [E/G#] [F#] [|] [B7]
 [E]Glorious the song [A]ringing in my heart
 [E]for my Father [B7]above; [A]
 [E]Gratefully I [E7]give [A]offering to Him,
-[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\][\][\][\]
+[E]triumph and glorious [A]love. [E/G#] [F#m] [|][\][\][\][\]
 {eoc}
 
 {sov: VERSE 3}
@@ -199,7 +205,7 @@ Father, my life is for [A]You. [E/G#] [F#] [|] [B7]
 [E]Glorious the song [A]ringing in my heart
 [E]for my Father [B7]above; [A]
 [E]Gratefully I [E7]give [A]offering to Him,
-[E]triumph and glorious [A]love. [E/G#] [F#m] [|] [\] [\] [\] [\]
+[E]triumph and glorious [A]love. [E/G#] [F#m] [|][\][\][\][\]
 {eoc}
 ```
 <hr>
