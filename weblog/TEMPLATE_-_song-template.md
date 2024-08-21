@@ -80,15 +80,7 @@ Title: Song
 						const bassNote = chord.substring(slashIndex + 1);
 						const convertedRoot = convertEnharmonic(rootChord);  // Recursive call for the root chord
 						const convertedBass = convertEnharmonic(bassNote);   // Recursive call for the bass note
-<<<<<<< HEAD
-<<<<<<< HEAD
 						return ${convertedRoot}/${convertedBass};
-=======
-						return `${convertedRoot}/${convertedBass}`;
->>>>>>> parent of 7e23160 (attempt to fix transposing bug)
-=======
-						return `${convertedRoot}/${convertedBass}`;
->>>>>>> parent of 7e23160 (attempt to fix transposing bug)
 				}
 
 				const match = chord.match(/^([A-G])([♯♭#b]?)(.*)$/);
@@ -129,15 +121,7 @@ Title: Song
 						const bassNote = chord.substring(slashIndex + 1);
 						const transposedRoot = transposeChord(rootChord, semitones);  // Recursive call
 						const transposedBass = transposeChord(bassNote, semitones);   // Recursive call
-<<<<<<< HEAD
-<<<<<<< HEAD
 						return ${transposedRoot}/${transposedBass};
-=======
-						return `${transposedRoot}/${transposedBass}`;
->>>>>>> parent of 7e23160 (attempt to fix transposing bug)
-=======
-						return `${transposedRoot}/${transposedBass}`;
->>>>>>> parent of 7e23160 (attempt to fix transposing bug)
 				}
 
 				// Regular chord transposition
