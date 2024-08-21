@@ -10,7 +10,7 @@ Tags: songs, holy-songs
 
 ###### Basic
 
-**Note**: Key of E: vocal friendly. Easier to play in D with Capo 2.
+**Note**: A more vocal-friendly key is E, which is easier to play in D with Capo 2.
 ```chordpro
 {title: Grace of the Holy Garden}
 {words: Rev. Sun Myung Moon}
