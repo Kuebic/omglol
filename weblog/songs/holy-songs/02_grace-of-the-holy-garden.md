@@ -133,7 +133,7 @@ flowing so deep in my [C]soul;
 [G]triumph and [D]glorious [G]love.
 {eoc}
 ```
----
+<hr>
 
 ###### LA Band
 
