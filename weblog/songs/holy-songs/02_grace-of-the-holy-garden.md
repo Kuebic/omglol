@@ -132,6 +132,7 @@ flowing so deep in my [C]soul;
 [G]Gratefully I give [C]offering to Him,
 [G]triumph and [D]glorious [G]love.
 {eoc}
+```
 ---
 
 ###### LA Band
