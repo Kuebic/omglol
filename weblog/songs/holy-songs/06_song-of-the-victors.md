@@ -9,6 +9,7 @@ Tags: songs, holy-songs
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
 ###### Basic
+
 ```chordpro
 {title: Song of the Victors}
 {words: Rev. Sun Myung Moon}
@@ -85,6 +86,7 @@ Songs of [C]freedom [G]bright with happi[C]ness.
 
 ###### AudioLynx
 [Youtube](https://www.youtube.com/watch?v=ckbzfWduBHY)
+
 ```chordpro
 {title: Song of the Victors}
 {Subtitle: Audiolynx Remix}
