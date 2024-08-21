@@ -204,36 +204,49 @@ document.addEventListener('DOMContentLoaded', function() {
         const content = [];
         let nextElement = tab.nextElementSibling;
 
+        // Debugging: Log the current tab being processed
+        console.log("Processing tab:", tab.textContent);
+
         // Collect all elements until the next h6 or hr
         while (nextElement && nextElement.tagName !== 'H6' && nextElement.tagName !== 'HR') {
-            content.push(nextElement);
+            // Only include elements that are not purely whitespace (e.g., empty text nodes)
+            if (nextElement.nodeType === Node.ELEMENT_NODE) {
+                content.push(nextElement);
+            }
             nextElement = nextElement.nextElementSibling;
         }
+
+        // Debugging: Log collected content for this tab
+        console.log("Mapped content for tab:", tab.textContent, content);
 
         // Map each tab to its associated content
         tabContentMap.set(tab, content);
 
         // Initially hide all content
-        content.forEach(element => element.style.display = 'none');
+        content.forEach(element => {
+            console.log("Hiding element:", element); // Debugging visibility
+            element.style.display = 'none';
+        });
     });
 
     // Handle tab click event
     tabs.forEach(tab => {
         tab.addEventListener('click', function() {
             // Clear the content container
-						console.log(contentContainer.innerHTML);
             contentContainer.innerHTML = '';
-						console.log(contentContainer.innerHTML);
 
             // Remove active class from all tabs
             tabs.forEach(t => t.classList.remove('active-tab'));
 
             // Show content associated with clicked tab
-            tabContentMap.get(tab).forEach(element => {
-                const clonedElement = element.cloneNode(true); // Clone the element
-                clonedElement.style.display = 'block';
-                contentContainer.appendChild(clonedElement);
-            });
+            const associatedContent = tabContentMap.get(tab);
+            if (associatedContent) {
+                associatedContent.forEach(element => {
+                    const clonedElement = element.cloneNode(true); // Clone the element
+                    clonedElement.style.display = 'block';
+                    contentContainer.appendChild(clonedElement);
+                });
+            }
 
             // Add active class to clicked tab
             tab.classList.add('active-tab');
