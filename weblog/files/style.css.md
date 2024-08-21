@@ -266,6 +266,7 @@ button:hover {
     line-height: 1.5em;
     font-weight: bold;
     margin: 1em 0;
+    box-sizing: border-box;
 }
 body.chordpro-verse:first-of-type {
     border-top: 1px solid #000;
@@ -350,11 +351,6 @@ body.chordpro-verse:first-of-type {
 }
 
 /* === Style for the tab headers === */
-
-/* Hide all content by default */
-/*.chordpro-title, .chordpro-key, .chordpro-comment, .chordpro-verse, p {
-    display: none;
-}*/
 
 /* Ensure all H6 elements are displayed as inline tabs */
 h6 {

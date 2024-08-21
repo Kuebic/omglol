@@ -180,60 +180,70 @@ document.addEventListener('DOMContentLoaded', function() {
     const tabs = document.querySelectorAll('h6');
     const tabContentMap = new Map();
 
-    // Create containers as before...
+    // Step 1: Map the tabs to their corresponding content before moving them
+    tabs.forEach(tab => {
+        const content = [];
+        let nextElement = tab.nextElementSibling;
+        let hrElement = null;
+
+        while (nextElement && nextElement.tagName !== 'H6' && nextElement.tagName !== 'HR') {
+            if (nextElement.nodeType === Node.ELEMENT_NODE) {
+                content.push(nextElement);
+            }
+            nextElement = nextElement.nextElementSibling;
+        }
+
+        if (nextElement && nextElement.tagName === 'HR') {
+            hrElement = nextElement;
+        }
+
+        tabContentMap.set(tab, content);
+
+        content.forEach(element => element.style.display = 'none');
+
+        if (hrElement) {
+            hrElement.remove();
+        }
+    });
+
     const contentContainer = document.createElement('div');
     contentContainer.className = 'content-container';
 
     const tabsContainer = document.createElement('div');
     tabsContainer.className = 'tabs-container';
 
-    tabs[0].parentNode.insertBefore(tabsContainer, tabs[0]);
+    const firstTabParent = tabs[0].parentNode;
+    firstTabParent.insertBefore(tabsContainer, tabs[0]);
+    tabsContainer.parentNode.insertBefore(contentContainer, tabsContainer.nextSibling);
 
     tabs.forEach(tab => {
         tabsContainer.appendChild(tab);
     });
 
-    tabsContainer.parentNode.insertBefore(contentContainer, tabsContainer.nextSibling);
-
-    // Map tabs to their corresponding content and initially hide content
     tabs.forEach(tab => {
-        const content = [];
-        let nextElement = tab.nextElementSibling;
+        tab.addEventListener('click', function() {
+            contentContainer.innerHTML = '';
 
-        // Debugging: Log the current tab being processed
-        console.log("Processing tab:", tab.textContent);
+            tabs.forEach(t => t.classList.remove('active-tab'));
 
-        // Loop to find and log the next non-text element
-        while (nextElement) {
-            // Skip non-element nodes
-            if (nextElement.nodeType !== Node.ELEMENT_NODE) {
-                nextElement = nextElement.nextElementSibling;
-                continue;
+            const associatedContent = tabContentMap.get(tab);
+            if (associatedContent) {
+                associatedContent.forEach(element => {
+                    const clonedElement = element.cloneNode(true);
+                    clonedElement.style.display = 'block';
+
+                    // Check if the element is a .chordpro-key and adjust display
+                    if (clonedElement.classList.contains('chordpro-key')) {
+                        clonedElement.style.display = 'inline-block'; // Override display block
+                    }
+
+                    contentContainer.appendChild(clonedElement);
+                });
             }
 
-            // If we encounter another <h6> or <hr>, break out of the loop
-            if (nextElement.tagName === 'H6' || nextElement.tagName === 'HR') {
-                break;
-            }
-
-            // Log the current element being processed
-            console.log("Found element:", nextElement);
-
-            content.push(nextElement);
-            nextElement = nextElement.nextElementSibling;
-        }
-
-        // Debugging: Log collected content for this tab
-        console.log("Mapped content for tab:", tab.textContent, content);
-
-        // Map each tab to its associated content
-        tabContentMap.set(tab, content);
-
-        // Initially hide all content
-        content.forEach(element => element.style.display = 'none');
+            tab.classList.add('active-tab');
+        });
     });
-
-    // Handle tab click events as before...
 
     if (tabs.length > 0) {
         tabs[0].click();
