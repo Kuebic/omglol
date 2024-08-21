@@ -10,11 +10,8 @@ Tags: songs, holy-songs
 
 ###### Basic
 
-**Note**: This is the traditional key. More vocally friendly key is key of E, much easier played with key of D with Capo 2.
-
-For LA Band arrangement, click [here](/songs/special-arrangements/02_grace-of-the-holy-garden_la-band).
-
-```chordpro
+**Note**: Key of E: vocal friendly. Easier to play in D with Capo 2. Classic Key is Key of G
+```chordpro|transpose-3
 {title: Grace of the Holy Garden}
 {words: Rev. Sun Myung Moon}
 {music: Duk Chin Kim}
@@ -67,7 +64,6 @@ For LA Band arrangement, click [here](/songs/special-arrangements/02_grace-of-th
 ###### LA Band
 
 [Listen](https://www.youtube.com/watch?v=UkcH5aXRWlo)
-
 ```chordpro
 {title: Grace of the Holy Garden}
 {words: Rev. Sun Myung Moon}
