@@ -58,6 +58,7 @@ Tags: songs, holy-songs
 {eov}
 
 {CHORUS}
+```
 ---
 
 ###### LA Band
