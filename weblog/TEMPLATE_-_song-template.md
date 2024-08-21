@@ -180,23 +180,19 @@ document.addEventListener('DOMContentLoaded', function() {
     const tabs = document.querySelectorAll('h6');
     const tabContentMap = new Map();
 
-    // Create a container to hold the content
+    // Create containers as before...
     const contentContainer = document.createElement('div');
     contentContainer.className = 'content-container';
 
-    // Create a flex container for the tabs
     const tabsContainer = document.createElement('div');
     tabsContainer.className = 'tabs-container';
 
-    // Insert the tabs container before the first h6 element
     tabs[0].parentNode.insertBefore(tabsContainer, tabs[0]);
 
-    // Move all h6 elements into the tabs container
     tabs.forEach(tab => {
         tabsContainer.appendChild(tab);
     });
 
-    // Insert the content container after the tabs container
     tabsContainer.parentNode.insertBefore(contentContainer, tabsContainer.nextSibling);
 
     // Map tabs to their corresponding content and initially hide content
@@ -207,13 +203,23 @@ document.addEventListener('DOMContentLoaded', function() {
         // Debugging: Log the current tab being processed
         console.log("Processing tab:", tab.textContent);
 
-        // Collect all elements until the next h6 or hr
-        while (nextElement && nextElement.tagName !== 'H6' && nextElement.tagName !== 'HR') {
-            // Only include elements that are not purely whitespace (e.g., empty text nodes)
-            if (nextElement.nodeType === Node.ELEMENT_NODE) {
-								console.log(nextElement);
-                content.push(nextElement);
+        // Loop to find and log the next non-text element
+        while (nextElement) {
+            // Skip non-element nodes
+            if (nextElement.nodeType !== Node.ELEMENT_NODE) {
+                nextElement = nextElement.nextElementSibling;
+                continue;
             }
+
+            // If we encounter another <h6> or <hr>, break out of the loop
+            if (nextElement.tagName === 'H6' || nextElement.tagName === 'HR') {
+                break;
+            }
+
+            // Log the current element being processed
+            console.log("Found element:", nextElement);
+
+            content.push(nextElement);
             nextElement = nextElement.nextElementSibling;
         }
 
@@ -224,38 +230,11 @@ document.addEventListener('DOMContentLoaded', function() {
         tabContentMap.set(tab, content);
 
         // Initially hide all content
-        content.forEach(element => {
-				console.log(`Hiding element under ${tab.textContent}:`, element);
-				element.style.display = 'none';
-				});
-
+        content.forEach(element => element.style.display = 'none');
     });
 
-    // Handle tab click event
-    tabs.forEach(tab => {
-        tab.addEventListener('click', function() {
-            // Clear the content container
-            contentContainer.innerHTML = '';
+    // Handle tab click events as before...
 
-            // Remove active class from all tabs
-            tabs.forEach(t => t.classList.remove('active-tab'));
-
-            // Show content associated with clicked tab
-            const associatedContent = tabContentMap.get(tab);
-            if (associatedContent) {
-                associatedContent.forEach(element => {
-                    const clonedElement = element.cloneNode(true); // Clone the element
-                    clonedElement.style.display = 'block';
-                    contentContainer.appendChild(clonedElement);
-                });
-            }
-
-            // Add active class to clicked tab
-            tab.classList.add('active-tab');
-        });
-    });
-
-    // Trigger the first tab by default
     if (tabs.length > 0) {
         tabs[0].click();
     }
