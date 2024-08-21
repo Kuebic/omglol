@@ -11,7 +11,7 @@ Tags: songs, holy-songs
 ###### Basic
 
 **Note**: Key of E: vocal friendly. Easier to play in D with Capo 2. Classic Key is Key of G
-```chordpro|transpose-3
+```chordpro|transpose:-3
 {title: Grace of the Holy Garden}
 {words: Rev. Sun Myung Moon}
 {music: Duk Chin Kim}
