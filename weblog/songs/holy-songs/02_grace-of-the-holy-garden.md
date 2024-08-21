@@ -10,51 +10,51 @@ Tags: songs, holy-songs
 
 ###### Basic
 
-**Note**: Key of E: vocal friendly. Easier to play in D with Capo 2. Classic Key is Key of G
+**Note**: Key of E: vocal friendly. Easier to play in D with Capo 2.
 ```chordpro
 {title: Grace of the Holy Garden}
 {words: Rev. Sun Myung Moon}
 {music: Duk Chin Kim}
 {year: 1953}
-{key: E}
+{key: G}
 
 {sov: VERSE 1}
-[E]Grace filling me with [G#m]golden light,
-[E]measureless blessing di[A]vine;
-[E]God gives eternal [G#m]life to me,
-[E]perfect re[B7]joicing is [E]mine.
+[G]Grace filling me with [Bm]golden light,
+[G]measureless blessing di[C]vine;
+[G]God gives eternal [Bm]life to me,
+[G]perfect re[D7]joicing is [G]mine.
 {eov}
 
 {soc: CHORUS}
-[E]Glorious the song [A]ringing in my heart
-[E]for my Father [B7]above;
-[E]Gratefully I give [A]offering to Him,
-[E]triumph and [B7]glorious [E]love.
+[G]Glorious the song [C]ringing in my heart
+[G]for my Father [D7]above;
+[G]Gratefully I give [C]offering to Him,
+[G]triumph and [D7]glorious [G]love.
 {eoc}
 
 {sov: VERSE 2}
-[E]Joy surging like an [G#m]ocean wave,
-[E]flowing so deep in my [A]soul;
-[E]Hope rises as I [G#m]go in praise,
-[E]knowing that [B7]man will be [E]whole
+[G]Joy surging like an [Bm]ocean wave,
+[G]flowing so deep in my [C]soul;
+[G]Hope rises as I [Bm]go in praise,
+[G]knowing that [D7]man will be [G]whole
 {eov}
 
 {CHORUS}
 
 {sov: VERSE 3}
-[E]High, limitless e[G#m]ternal life,
-[E]touching the top of the [A]sky;
-[E]Praise filling every [G#m]part of me
-[E]blessing that [B7]never will [E]die.
+[G]High, limitless e[Bm]ternal life,
+[G]touching the top of the [C]sky;
+[G]Praise filling every [Bm]part of me
+[G]blessing that [D7]never will [G]die.
 {eov}
 
 {CHORUS}
 
 {sov: VERSE 4}
-[E]You've chosen me to [G#m]do Your will,
-[E]thankful, I vow to be [A]true;
-[E]I'm pledging in my [G#m]heart of hearts;
-[E]Father, my [B7]life is for [E]You.
+[G]You've chosen me to [Bm]do Your will,
+[G]thankful, I vow to be [C]true;
+[G]I'm pledging in my [Bm]heart of hearts;
+[G]Father, my [D7]life is for [G]You.
 {eov}
 
 {CHORUS}
