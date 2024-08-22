@@ -8,15 +8,17 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
+###### Basic
 ```chordpro
 {title: Our Forefathers}
 {subtitle: anonymous}
 {key: C}
 
-Our forefathers built for us a beautiful land;
-Till it is completed, we will join in heart and hand.
-See the new eternal history, beckoning us to come
-Quickly on the journey to the true eternal home.
-How the beauty of our native land lifts us to the skies;
-God has surely chosen this eternal paradise.
+[C]Our forefathers built for us a [Am]beautiful [G7]land;
+[C]Till it is completed, we will [Am]join in [G7]heart and [C]hand.
+See the [Am]new e[G]ternal [C]history, beckoning [Am]us [G]to [C]come
+Quickly on the [Am]journey to the [C]true e[G7]ternal [C]home.
+How the beauty [G]of our [C]native land [F]lifts us [C]to the [G]skies;
+[C]God has surely [Am]chosen this [C]eternal [G7]para[C]dise.
 ```
+---
