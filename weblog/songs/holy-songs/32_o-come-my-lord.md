@@ -8,36 +8,39 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
+###### Basic
 ```chordpro
 {title: O Come My Lord}
 {words: Jai Bong Dak}
 {music: Jai Hoon Pak}
+{time: 3/4}
 {key: C}
 
-O come my Lord; I beg You to come.
-O come to me and live within my heart;
-Come live in my heart so black and impure,
-That bears the burden of my sin.
-O come! My Lord, You are the fire that burns so bright;
-Come burn within my heart and cleans my sins,
-O how I pray that You will come soon;
-Come to me O Lord, Live within my heart.
+O [C]come my [G]Lord; I [F]beg You to [C]come.
+O [D]come to me and [G]live within my [G7]heart;
+Come [C]live in my [G]heart so [F]black and im[C]pure,
+That [G]bears the [D]burden of my [G]sin.
+O [C]come! My [F]Lord, You are the [Dm]fire that [G7]burns so [C]bright;
+Come [F]burn within my [Dm]heart and [C]cleans my [G]sins,
+[C]O how I [G]pray that [F]You will come [C]soon;
+[C]Come to me O [G]Lord, Live with[G7]in my [C]heart. [(F/C)]  [(C)]
 
-O come my Lord; I beg You to come.
-Come dwell with me my altar now awaits;
-O come to the altar waiting for you,
-But lost and hidden by the night.
-O come! My Lord, You are the light that fills the world;
-Come purify my altar by Your light.
-O how I pray that You will come soon;
-Many altars wait, Dwell with them, O Lord.
+O [C]come my [G]Lord; I [F]beg You to [C]come.
+Come [D]dwell with me my [G]altar now a[G7]waits;
+O [C]come to the [G]altar [F]waiting for [C]you,
+But [G]lost and [D]hidden by the [G]night.
+O [C]come! My [F]Lord, You are the [Dm]light that [G7]fills the [C]world;
+Come [F]purify my [Dm]altar [C]by Your [G]light.
+[C]O how I [G]pray that [F]You will come [C]soon;
+[C]Many altars [G]wait, Dwell with [G7]them, O [C]Lord. [(F/C)]  [(C)]
 
-O come my Lord; I beg You to come.
-O come and bring new life to all the earth;
-O come save the world from dying in pain;
-Restore our sinful world.
-O come! My Lord, You are the strength that will not change;
-Come end our evil ways and tragic times.
-O how I pray that You will come soon;
-Crying my heart, Come to us, O Lord.
+O [C]come my [G]Lord; I [F]beg You to [C]come.
+O [D]come and bring new [G]life to all the [G7]earth;
+O [C]come save the [G]world from [G]dying in [C]pain;
+Re[G]store our [D]sinful [G]world.
+O [C]come! My [F]Lord, You are the [Dm]strength that [G7]will not [C]change;
+Come [F]end our evil [Dm]ways and [C]tragic [G]times.
+[C]O how I [G]pray that [F]You will come [C]soon;
+[C]Crying my [G]heart, Come to [G7]us, O [C]Lord.  [F/C]  [C]
 ```
+---
