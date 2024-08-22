@@ -2,12 +2,13 @@
 Type: Page
 Template: Song
 Title: All the Lands That I Love
-Location: /songs/camp/all-the-lands-that-i-love
+Location: /songs/classics/all-the-lands-that-i-love
 Tags: songs, camp
 ---
 
-## [Songs](/songs) - [Camp](/songs/camp)
+## [Songs](/songs) - [Classics](/songs/classics)
 
+###### Midwest
 ```chordpro
 {title: All the Lands That I Love}
 {subtitle: by: Kristina Morrison-Beher & Joshua Cotter}
@@ -58,3 +59,4 @@ my [C]heart is [D]in your [G]hands [/]  [C]  [/]  [|]
 [G] [/] [G] [D7] [G] [|]
 {eoc}
 ```
+---

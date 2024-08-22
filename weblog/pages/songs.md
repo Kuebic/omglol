@@ -5,6 +5,5 @@ Location: /songs
 ---
 
 ## Songs
-#### [Camp](/songs/camp)
+#### [Classics](/songs/classics)
 #### [Holy Songs](/songs/holy-songs)
-#### [Special Arrangements](/songs/special-arrangements)

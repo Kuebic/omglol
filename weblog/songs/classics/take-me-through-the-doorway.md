@@ -2,12 +2,13 @@
 Type: Page
 Template: Song
 Title: Take Me Through the Doorway
-Location: /songs/camp/take-me-through-the-doorway
+Location: /songs/classics/take-me-through-the-doorway
 Tags: songs, camp
 ---
 
-## [Songs](/songs) - [Camp](/songs/camp)
+## [Songs](/songs) - [Classics](/songs/classics)
 
+###### Basic
 ```chordpro
 {title: Take Me Through the Doorway}
 {subtitle: Joshua Cotter}
@@ -37,5 +38,12 @@ Where [Am]Father's [D]love is [Bm]flowing [Em]freely [C]Children [D7]hand in han
 [Am]Follow [D]it with [Bm]all your [Em]heart, there's [C]joy for [D7]all to [G]share.
 {eov}
 
-{Chorus}
+{soc: CHORUS}
+[G]Take me through the door[C]way, [D7]Lead me to the land. [Em]
+Where [Am]Father's [D]love is [Bm]flowing [Em]freely [C]Children [D7]hand in hand. [G]
+
+[G]Take me through the door[C]way, [D7]Lead me to the land. [Em]
+Where [Am]Father's [D]love is [Bm]flowing [Em]freely [C]Children [D7]hand in hand. [G]
+{eoc}
 ```
+---
