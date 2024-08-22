@@ -8,37 +8,40 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
+###### Basic
 ```chordpro
 {title: Pledge}
 {words: Yun Young Yang}
 {music: Yun Young Yang}
 {year: 1956}
-{key: C}
+{time: 6/8}
+{key: D}
 
-My fallen figure shames the earth;
-Once I was born, yet never I lived,
-Never forsaking, You came to me
-Giving my life and breaking my chains
-Tenderly You gathered me up;
-Filled with love and sweating blood,
-Ever patient, You taught me the word,
-Carved in my heart, it forever remains.
+[D]My fallen figure shames [G]the [D]earth;
+Once I was [G]born, yet [A]never I [D]lived,
+Never for[G]saking, [F#m]You came to [Bm]me
+[Em]Giving my [D]life and [G]breaking my [D]chains
+[Bm]Tenderly You [F#m]gathered me up;
+[Bm]Filled with love and [A]sweating [A7]blood,
+[Em]Ever patient, You [F#m]taught me the word,
+[D]Carved in my [Em]heart, it for[A]ever re[D]mains.
 
-Never I knew what life should be;
-All I can do is follow your way.
-When on the path, I stumble and fall,
-Turning, You give the courage I need.
-Though the path is narrow and steep;
-Cruel thorns leave a trail of blood.
-Still I pledge I will follow the way,
-Follow as far as my Father will lead.
+[D]Never I knew what [G]life should [D]be;
+All I can [G]do is [A]follow your [D]way.
+When on the [G]path, I [F#m]stumble and [Bm]fall,
+[Em]Turning, You [D]give the [G]courage I [D]need.
+[Bm]Though the path is [F#m]narrow and steep;
+[Bm]Cruel thorns leave a [A]trail of [A7]blood.
+[Em]Still I pledge I will [F#m]follow the way,
+[D]Follow as [Em]far as my [A]Father will [D]lead.
 
-Freed from a sleep so deep and dark,
-gladly I wake to knowing your will.
-Though death may stab me time and again,
-Nothing can change a loyal heart.
-This I pledge, my life is for You;
-For Your will I rush forward to die.
-This I pledge till the struggle is done,
-'Till we proclaim the victorious day.
+[D]Freed from a sleep so [G]deep and [D]dark,
+Gladly I [G]wake to [A]knowing your [D]will.
+Though death may [G]stab me [F#m]time and a[Bm]gain,
+[Em]Nothing can [D]change a [G]loyal [D]heart.
+[Bm]This I pledge, my [F#m]life is for You;
+[Bm]For Your will I rush [A]forward to [A7]die.
+[Em]This I pledge till the [F#m]struggle is done,
+[D]'Till we pro[Em]claim the vic[A]torious [D]day.
 ```
+---
