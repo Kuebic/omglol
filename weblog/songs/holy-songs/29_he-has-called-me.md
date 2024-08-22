@@ -30,3 +30,26 @@ With[F]out esteem, with[C]out renown, I [F]only [G]wish to [C]fol[G]low,
 With[F]out esteem, with[C]out renown, [F] I [C]only wish to [G7]fol[C]low.
 ```
 ---
+
+###### Simplified
+```chordpro
+{title: He Has Called Me}
+{subtitle: Simplified}
+{key: C}
+
+The [C]Lord has [F]called and [C]I will [Am]go, where He [G]leads me I will [C]follow;
+The [C]same in [F]sorrow [C]as in [G]joy; with one [D]heart I follow [G]my Lord.
+For [F]none on earth can [C]turn me back, not [F]even death can [C]stop [G]me,
+No, [F]none on earth can [C]turn me back, [F] not [C]even death can [G]stop [C]me.
+
+To [C]barren [F]valleys [C]piled with [Am]bones, I will [G]take the living [C]message;
+To [C]Sodom's [F]foul and [C]wretched [G]streets, I will [D]bear the word with [G]love.
+I [F]bind my heart, my [C]life to Yours, that [F]it may be an [C]offer[G]ing,
+I [F]bind my heart, my [C]life to Yours, [F] that [C]it may be an [G]offer[C]ing.
+
+To [C]You be[F]longs our [C]full ac[Am]claim, all [G]glory power and [C]honor,
+The [C]world's con[F]tempt I [C]do not [G]fear, I will [D]gladly bear the [G]cross.
+With[F]out esteem, with[C]out renown, I [F]only wish to [C]fol[G]low,
+With[F]out esteem, with[C]out renown, [F] I [C]only wish to [G]fol[C]low.
+```
+---
