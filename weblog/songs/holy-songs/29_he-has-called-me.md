@@ -8,23 +8,25 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
+###### Basic
 ```chordpro
 {title: He Has Called Me}
 {subtitle: Christian Korean hymn}
 {key: C}
 
-The Lord has called and I will go, where He leads me I will follow;
-The same in sorrow as in joy; with one heart I follow my Lord.
-For none on earth can turn me back, not even death can stop me,
-No none on earth can turn me back, not even death can stop me.
+The [C]Lord has [F]called and [C]I will [Am]go, where He [G]leads me I [G7]will [C]follow;
+The [C]same in [F]sorrow [C]as in [G]joy; with one [D]heart I [D7]follow [G]my Lord.
+For [F]none on earth can [C]turn me back, not [F]even [G]death can [C]stop [G]me,
+No, [F]none on earth can [C]turn me back, [F] not [C]even death can [G7]stop [C]me.
 
-To barren valleys piled with bones, I will take the living message;
-To Sodom's foul and wretched streets, I will bear the word with love.
-I bind my heart, my life to Yours, that it may be an offering,
-I bind my heart, my life to Yours, that it may be an offering.
+To [C]barren [F]valleys [C]piled with [Am]bones, I will [G]take the [G7]living [C]message;
+To [C]Sodom's [F]foul and [C]wretched [G]streets, I will [D]bear the [D7]word with [G]love.
+I [F]bind my heart, my [C]life to Yours, that [F]it may [G]be an [C]offer[G]ing,
+I [F]bind my heart, my [C]life to Yours, [F] that [C]it may be an [G7]offer[C]ing.
 
-To You belongs our full acclaim, all glory power and honor,
-The world's contempt I do not fear, I will gladly bear the cross.
-Without esteem, without renown, I only wish to follow,
-Without esteem, without renown, I only wish to follow.
+To [C]You be[F]longs our [C]full ac[Am]claim, all [G]glory [G7]power and [C]honor,
+The [C]world's con[F]tempt I [C]do not [G]fear, I will [D]gladly [D7]bear the [G]cross.
+With[F]out esteem, with[C]out renown, I [F]only [G]wish to [C]fol[G]low,
+With[F]out esteem, with[C]out renown, [F] I [C]only wish to [G7]fol[C]low.
 ```
+---
