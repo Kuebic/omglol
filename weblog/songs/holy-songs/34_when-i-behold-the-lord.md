@@ -8,28 +8,31 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
+###### Basic
 ```chordpro
 {title: When I Behold the Lord}
 {subtitle: Christian Japanese hymn}
+{time: 6/8}
 {key: C}
 
-When I behold the Lord of all, my old self dies away.
-So dies the world of sinfulness giving birth to good.
-Soon a new self emerges, clear and bright and pure;
-Come and behold the new life, heaven and earth reborn.
+[C]When I behold the [G]Lord of [C]all, [Dm]my old self [G7]dies a[C]way.
+So dies the world of [Em]sinful[Am]ness [Dm]giving [G7]birth to [C]good.
+[C]Soon a new self e[F]mer[C]ges, [G]clear and [C]bright and [G]pure; [G7]
+[F]Come and behold the [E7]new [Am]life, [Dm]heaven and [G7]earth re[C]born.
 
-Now I behold Jerusalem, city of loveliness,
-Gently descending from above, ever to be my own.
-Joy never ending is with me, long as the Lord is near;
-Joy ever flows in sweetness, river of precious life.
+[C]Now I behold Je[G]rusa[C]lem, [Dm]city of [G7]loveli[C]ness,
+Gently descending [Em]from a[Am]bove, [Dm]ever to [G7]be my [C]own.
+[C]Joy never ending is [F]with [C]me, [G]long as the [C]Lord is [G]near; [G7]
+[F]Joy ever flows in [E7]sweet[Am]ness, [Dm]river of [G7]precious [C]life.
 
-Kingdom of God eternal fervently I desired;
-heavenly rays so softy fall, shining the Sun of Grace.
-Springing forth in ripeness, fruit of the Tree of Life,
-Torment of doubt is over, gone is the shadow of death.
+[C]Kingdom of God e[G]ter[C]nal [Dm]fervently [G7]I de[C]sired;
+Heavenly rays so [Em]softy [Am]fall, [Dm]shining the [G7]Sun of [C]Grace.
+[C]Springing forth in [F]ripe[C]ness, [G]fruit of the [C]Tree of [G]Life, [G7]
+[F]Torment of doubt is [E7]o[Am]ver, [Dm]gone is the [G7]shadow of [C]death.
 
-Torturing every part of me, sinfulness rules my soul.
-Still God can raise me purified, giving creation to me.
-Letting me live in his palace, shining with golden light;
-Boundless His love and kindness, boundless His love for me!
+[C]Torturing every [G]part of [C]me, [Dm]sinfulness [G7]rules my [C]soul.
+Still God can raise me [Em]puri[Am]fied, [Dm]giving cre[G7]ation to [C]me.
+[C]Letting me live in his [F]pa[C]lace, [G]shining with [C]golden [G]light; [G7]
+[F]Boundless His love and [E7]kind[Am]ness, [Dm]boundless [G7]His love for [C]me!
 ```
+---
