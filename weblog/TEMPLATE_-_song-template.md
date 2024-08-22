@@ -237,6 +237,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     if (clonedElement.classList.contains('chordpro-key')) {
                         clonedElement.style.display = 'inline-block'; // Override display block
                     }
+										if (clonedElement.classList.contains('chordpro-chord')) {
+											clonedElement.style.display = 'block'; // Refreshing
+										}
 
                     contentContainer.appendChild(clonedElement);
                 });
