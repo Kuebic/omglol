@@ -8,28 +8,30 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
+###### Basic
 ```chordpro
 {title: My Cross}
 {words: Kwang Yol Yoo}
 {music: Doo Wan Kam}
 {key: C}
 
-Who can I go to for my help to bear my heavy cross?
-Has not the Lord been helping me before I ever knew?
-Because I had no strength to bear the load He gave to me,
-Six thousand yeas of blood was shed, the thorny path prolonged.
+Who [C]can I [F]go to for my [C]help to [Am]bear my [Dm]heavy [G7]cross?
+Has [C]not the [F]Lord been [C]helping me be[Dm]fore I [G7]ever [C]knew?
+Be[Dm]cause I [G7]had no [C]strength to bear the [G]load He [G7]gave to [C]me,
+Six [(C)]thousand years of [F]blood was [C]shed, [F]the [C]thorny [G7]path pro[C]longed.
 
 Chorus:
-	I will shoulder now the cross, and pledge I shall endure;
-	Far beyond Golgotha's pain, now hear the victory.
+I will [(C)]shoulder [F]now the [C]cross, and [Am]pledge I [Dm]shall en[G7]dure;
+Far be[C]yond Golgotha's [F]pain, now [C]hear the [G7]victo[C]ry.
 
-The Lord would never give to me a cross I could not bear.
-If I give all the strength I have I shall achieve the goal.
-I sacrifice to do His will, no trial I cannot bear.
-I give my life to go this way, no one can turn me back.
+The [C]Lord would [F]never give to [C]me a [Am]cross I [Dm]could not [G7]bear.
+If [C]I give [F]all the [C]strength I have I [Dm]shall a[G7]chieve the [C]goal.
+I [Dm]sacri[G7]fice to [C]do His will, no [G]trial I [G7]cannot [C]bear.
+I [C]give my life to [F]go this [C]way, [F]no [C]one can [G7]turn me [C]back.
 
-Our Father always persevered to see His will be done,
-If all His children join the task it soon will be achieved.
-If not, the lonely years of strife will all have been in vain.
-No matter what, in fighting on, we'll win eternal joy.
+Our [C]Father [F]always perse[C]vered to [Am]see His [Dm]will be [G7]done,
+If [C]all His [F]children [C]join the task it [Dm]soon will [G7]be a[C]chieved.
+If [Dm]not, the [G7]lonely [C]years of strife will [G]all have [G7]been in [C]vain.
+No [C]matter what, in [F]fighting [C]on, [F]we'll [C]win e[G7]ternal [C]joy.
 ```
+---
