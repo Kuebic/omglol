@@ -8,49 +8,59 @@ Tags: songs, holy-songs
 
 ## [Songs](/songs) - [Holy Songs](/songs/holy-songs)
 
+###### Basic
 ```chordpro
 {title: Light of Grace}
 {subtitle: Christian Japanese hymn}
-{key: Bb}
+{time: 6/8}
+{key: A}
 
 {sov: VERSE 1}
-[Bb]O, Light of Grace, [Eb]shining above,
-[Bb]Lighting my dim [Gm]shadowed [F]way,
-[Bb]O, Light of Grace, [Eb]easing my pain,
-[Bb]You have shown that [F7]God is [Bb]love.
+[A]O, Light of Grace, [D]shining above,
+[A]Lighting my dim shadowed [E]way,
+[A]O, Light of Grace, [D]easing my pain,
+[A]You have shown that [E7]God is [A]love.
 {eov}
 
 {soc: CHORUS}
-[Bb]I'll give my life, [Gm]and my [F]love,
-[Bb]unto the [Eb]one [F7]God of [Bb]love.
+[A]I'll give my [F#m]life, [D]and my [E]love,
+[A]unto the [D]one [E7]God of [A]love.
 {eoc}
 
 {sov: VERSE 2}
-[Bb]Though clouds may come,
-[Eb]hiding His face,
-[Bb]Hiding the smile of my [F]God,
-[Bb]Though clouds may come,
-[Eb]Still He is there,
-[Bb]Shining brightly, [F7]Cod is [Bb]love.
+[A]Though clouds may come, [D]hiding His face,
+[A]Hiding the smile of my [E]God,
+[A]Though clouds may come, [D]Still He is there,
+[A]Shining brightly, [E7]God is [A]love.
 {eov}
 
-{c:CHORUS}
+{soc: CHORUS}
+[A]I'll give my [F#m]life, [D]and my [E]love,
+[A]unto the [D]one [E7]God of [A]love.
+{eoc}
 
 {sov: VERSE 3}
-[Bb]Amid the storm, [Eb]tossed on the sea,
-[Bb]Beacon of hope, guiding [F]me.
-[Bb]Amid the storm, [Eb]shelter is near,
-[Bb]Trust in Him for [F7]God is [Bb]love.
+[A]Amid the storm, [D]tossed on the sea,
+[A]Beacon of hope, guiding [E]me.
+[A]Amid the storm, [D]shelter is near,
+[A]Trust in Him for [E7]God is [A]love.
 {eov}
 
-{c:CHORUS}
+{soc: CHORUS}
+[A]I'll give my [F#m]life, [D]and my [E]love,
+[A]unto the [D]one [E7]God of [A]love.
+{eoc}
 
 {sov: VERSE 4}
-[Bb]All things decay, [Eb]passing away,
-[Bb]Only the light shall re[F]main;
-[Bb]All things decay; [Eb]still there is One,
-[Bb]True and faithful, [F7]God is [Bb]love.
+[A]All things decay, [D]passing away,
+[A]Only the light shall re[E]main;
+[A]All things decay; [D]still there is One,
+[A]True and faithful, [E7]God is [A]love.
 {eov}
 
-{c:CHORUS}
+{soc: CHORUS}
+[A]I'll give my [F#m]life, [D]and my [E]love,
+[A]unto the [D]one [E7]God of [A]love.
+{eoc}
 ```
+---
