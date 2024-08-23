@@ -8,3 +8,4 @@ Location: /songs/classics
 #### [All the Lands That I Love](/songs/classics/all-the-lands-that-i-love)
 #### [Sailing With Our Father](/songs/classics/sailing-with-our-father)
 #### [Take Me Through the Doorway](/songs/classics/take-me-through-the-doorway)
+#### [We are the World](/songs/classics/we-are-the-world)
