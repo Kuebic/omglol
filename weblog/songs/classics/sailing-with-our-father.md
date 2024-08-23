@@ -1,7 +1,7 @@
 ---
 Type: Page
 Template: Song
-Title: Sailing with our Father
+Title: Sailing With Our Father
 Location: /songs/classics/sailing-with-our-father
 Tags: songs, camp
 ---
@@ -10,7 +10,7 @@ Tags: songs, camp
 
 ###### Basic
 ```chordpro
-{title: Sailing with our Father}
+{title: Sailing With Our Father}
 {subtitle: by: David Rendel}
 {key: G}
 

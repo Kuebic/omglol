@@ -6,4 +6,5 @@ Location: /songs
 
 ## Songs
 #### [Classics](/songs/classics)
+#### [Contemporary Christian](/songs/contemporary-christian)
 #### [Holy Songs](/songs/holy-songs)
