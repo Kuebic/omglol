@@ -12,9 +12,9 @@ This repository manages the content of my [Weblog](https://weblog.lol) developed
     - Copy the Markdown formatting from existing songs
     - Ensure that ChordPro formatting is enclosed within coding brackets:
         ```markdown
-            \`\`\`chordpro
+            ```chordpro
             [C]This is an [G]example
-            \`\`\`
+            ```
         ```
     - For multiple versions of a song, separate each version with a Header 6
         ```markdown
