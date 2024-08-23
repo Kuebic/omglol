@@ -5,3 +5,4 @@ Location: /songs/contemporary-christian
 ---
 
 ## [Songs](/songs) - Contemporary Christian
+#### [Hosanna](/songs/contemporary-christian/hosanna)
