@@ -47,7 +47,7 @@ We're on our [F#m7]knees, we're on our [B]knees
 {soc: CHORUS}
 Ho-[E/F#]san-[A]na,  ho-[B]san-[C#m7]na,  ho-[A]sanna in the [C#m7]highest [B]
 Ho-[E/F#]san-[A]na,  ho-[B]san-[C#m]na,   ho-[A]sanna in the [B]highest
-{eov}
+{eoc}
 
 {c: INSTRUMENTAL (2x)}
 [C#m / / / | D / / / | Em7 / / / | F#m7 / / /]
