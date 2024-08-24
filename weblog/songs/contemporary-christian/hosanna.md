@@ -68,7 +68,7 @@ Ho-[E/F#]san-[A]na,  ho-[B]san-[C#m7]na,  ho-[A]sanna in the [C#m7]highest [B]
 Ho-[E/F#]san-[A]na,  ho-[B]san-[C#m]na,   ho-[A]sanna in the [B]highest [E]
 
 Ho-[E/F#]san-[A]na,  ho-[B]san-[C#m7]na,  ho-[A]sanna in the [C#m7]highest [B]
-Ho-[E/F#]san-[A]na,  ho-[B]san-[C#m]na,   ho-[A]sanna in the [B]highest [C#m]
+Ho-[E /F#]san-[A]na,  ho-[B]san-[C#m]na,   ho-[A]sanna in the [B]highest [C#m]
 {eoc}
 
 {c: ENDING}
