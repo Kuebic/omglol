@@ -16,6 +16,14 @@ def extract_metadata(file_path):
                 location = line.split(':', 1)[1].strip()
             if title and location:
                 break
+
+    # Detailed logging if metadata is missing
+    if not title or not location:
+        if not title:
+            print(f"Warning: 'Title' metadata missing in {file_path}")
+        if not location:
+            print(f"Warning: 'Location' metadata missing in {file_path}")
+
     return title, location
 
 # Create the main songs.md file
@@ -45,7 +53,7 @@ Location: /songs
             folder_md_filename = f"songs_-_{folder_name}.md"
             folder_md_path = os.path.join(pages_path, folder_md_filename)
 
-            # Create a new markdown file for the folder
+            # Create or overwrite the markdown file for the folder
             with open(folder_md_path, 'w') as folder_md:
                 folder_md.write(f"""---
 Type: Page
@@ -56,12 +64,21 @@ Location: /songs/{folder_name}
 ## [Songs](/songs) - {folder_name_readable}
 """)
 
+                # Flag to check if any songs were added
+                songs_added = False
+
                 # Iterate over files in the folder and add links to the markdown file
                 for sub_folder_name in sorted(os.listdir(folder_path)):
                     sub_folder_path = os.path.join(folder_path, sub_folder_name)
-                    if os.path.isfile(sub_folder_path) and sub_folder_name.endswith('.md'):
+                    if sub_folder_name.endswith('.md'):
                         title, location = extract_metadata(sub_folder_path)
                         if title and location:
                             folder_md.write(f"#### [{title}]({location})\n")
+                            songs_added = True
+
+                # If no songs were added, provide a message
+                if not songs_added:
+                    folder_md.write("\nNo songs available in this category.\n")
+                    print(f"No valid songs found in folder: {folder_path}")
 
 print("Markdown files have been generated successfully.")
